@@ -6,9 +6,8 @@ export default function Hero() {
     <section className="relative h-screen w-full">
       {/* 1) Full‑screen background image */}
       <Image
-        src="/towtruckpullingtruck.png
-        "
-        alt="Tow truck pulling a damaged vehicle"
+        src="/towtruckpullingtruck.png"
+        alt="Dunwoody Tow Truck taking an emergency call 24/7 near me"
         fill
         priority
         className="object-cover"
