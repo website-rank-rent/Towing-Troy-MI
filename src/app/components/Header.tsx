@@ -26,6 +26,7 @@ export default function Header() {
         </Link>
 
         <div className="hidden md:flex space-x-8">
+          <Link href="/" className={linkClass("/")}>Home</Link>
           <Link href="/services" className={linkClass("/services")}>Services</Link>
           <Link href="/about" className={linkClass("/about")}>About</Link>
           <Link href="/#contact" className="hover:text-gray-200">Contact</Link>
@@ -47,6 +48,7 @@ export default function Header() {
 
       {menuOpen && (
         <div className="md:hidden bg-gray/90 backdrop-blur-md text-white px-6 py-4 flex space-x-6 justify-center">
+          <Link href="/" onClick={() => setMenuOpen(false)} className={linkClass("/")}>Home</Link>
           <Link href="/services" onClick={() => setMenuOpen(false)} className={linkClass("/services")}>Services</Link>
           <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass("/about")}>About</Link>
           <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
