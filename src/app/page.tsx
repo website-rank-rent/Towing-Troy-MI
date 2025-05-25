@@ -1,19 +1,19 @@
 // src/app/page.tsx
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ServicesTeaser from "./components/ServicesTeaser";
+import TestimonialSection from "./components/TestimonialSection";
 
 export default function Home() {
   return (
     <>
-      {/* 1. Nav overlaid on the hero */}
       <Header />
-
-      {/* 2. Full‑screen hero */}
       <Hero />
-
-      {/* 3. Teaser section below */}
       <ServicesTeaser />
+      <TestimonialSection />
+      <Contact/>
+      
     </>
   );
 }
