@@ -31,7 +31,8 @@ export default function Header() {
         <div className="hidden md:flex space-x-8">
           <Link href="#services" className="hover:text-gray-200">Services</Link>
           <Link href="/about" className={linkClass("/about")}>About</Link>
-          <Link href="#contact" className="hover:text-gray-200">Contact</Link>
+          <Link href="../#contact" className="hover:text-gray-200">Contact</Link>
+          <Link href="../#contact" onClick={() => setMenuOpen(false)}>Reviews</Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -54,7 +55,8 @@ export default function Header() {
 
           <Link href="#services" onClick={() => setMenuOpen(false)}>Services</Link>
           <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass("/about")}>About</Link>
-          <Link href="#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <Link href="../#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <Link href="../#contact" onClick={() => setMenuOpen(false)}>Reviews</Link>
         </div>
       )}
     </header>
