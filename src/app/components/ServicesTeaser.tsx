@@ -11,10 +11,10 @@ export default function ServicesTeaser() {
             throughout the area.
           </p>
           <a
-            href="tel:+15551234567"
+            href="tel:+18665307414"
             className="mt-6 inline-block text-3xl font-bold text-blue-600"
           >
-            (555) 123‑4567
+            (866) 530‑7414 
           </a>
         </div>
       </section>

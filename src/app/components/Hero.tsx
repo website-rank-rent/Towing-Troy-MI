@@ -26,7 +26,7 @@ export default function Hero() {
           Reliable Towing & Roadside Assistance
         </p>
         <a
-          href="tel:+15551234567"
+          href="tel:+18665307414"
           className="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-md"
         >
           CALL NOW
