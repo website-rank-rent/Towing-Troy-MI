@@ -16,9 +16,9 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8 text-white">
-          <Link href="#services" className="hover:text-gray-200">Services</Link>
-          <Link href="#about" className="hover:text-gray-200">About</Link>
-          <Link href="#contact" className="hover:text-gray-200">Contact</Link>
+          <Link href="#services" className="hover:text-gray-200">Services      </Link>
+          <Link href="#about" className="hover:text-gray-200">About      </Link>
+          <Link href="#contact" className="hover:text-gray-200">Contact      </Link>
         </div>
 
         {/* Mobile Menu Button */}
