@@ -13,23 +13,23 @@ export default function ServicesPage() {
         <h1 className="text-4xl font-bold mb-6">Our Towing & Roadside Services in [City Name]</h1>
 
         <p className="mb-4 text-lg">
-          Looking for <strong>tow truck services near me</strong> in <strong>[City Name]</strong>? You're in the right place. We provide 24/7 emergency and scheduled towing solutions to keep you moving.
+          Looking for <strong>tow truck services near me</strong> in <strong>[City Name]</strong>? You&apos;re in the right place. We provide 24/7 emergency and scheduled towing solutions to keep you moving.
         </p>
 
-        <p className="mb-4 text-lg">Here’s what we offer:</p>
+        <p className="mb-4 text-lg">Here&apos;s what we offer:</p>
 
         <ul className="list-disc pl-6 mb-4 text-lg">
           <li><strong>24/7 Emergency Towing</strong> — Immediate dispatch for breakdowns and accidents</li>
           <li><strong>Flatbed Towing</strong> — Secure transport for low-clearance, exotic, or disabled vehicles</li>
           <li><strong>Roadside Assistance</strong> — Tire changes, fuel delivery, jumpstarts, and minor repairs</li>
-          <li><strong>Battery Jumpstart Service</strong> — Fast starts when your car won’t turn over</li>
+          <li><strong>Battery Jumpstart Service</strong> — Fast starts when your car won&apos;t turn over</li>
           <li><strong>Lockout Service</strong> — Get back in your car quickly without damage</li>
           <li><strong>Accident Recovery</strong> — We handle cleanup and towing from any scene</li>
           <li><strong>Long-Distance Towing</strong> — Need to tow a vehicle across counties or out of town? We can help.</li>
         </ul>
 
         <p className="mb-4 text-lg">
-          Whether you're stuck on the side of the road or need scheduled vehicle transport, our licensed and insured team is here to help — fast.
+          Whether you&apos;re stuck on the side of the road or need scheduled vehicle transport, our licensed and insured team is here to help — fast.
         </p>
 
         <p className="text-lg mb-8">
