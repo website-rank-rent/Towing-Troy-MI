@@ -15,8 +15,8 @@ export default function Hero() {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/50" />
 
-      {/* Headline + CTA in bottom of top third */}
-      <div className="absolute w-full left-0 px-6" style={{ top: "30%" }}>
+      {/* Headline + CTA in middle of top third */}
+      <div className="absolute w-full left-0 px-6" style={{ top: "6.5%" }}>
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-white text-5xl md:text-6xl font-extrabold">
             TOW TRUCK SERVICE
