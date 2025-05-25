@@ -11,7 +11,7 @@ export default function Header() {
 
   const isHome = pathname === '/';
   const bgClass = isHome
-    ? 'bg-black/10 backdrop-blur-md'
+    ? 'bg-gray/10 backdrop-blur-md'
     : 'bg-black backdrop-blur-md';
 
   const linkClass = (path: string) =>
