@@ -2,28 +2,41 @@
 
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const isHome = pathname === '/';
+
+  // Apply light black transparency with blur on home, solid black on others
+  const bgClass = isHome
+    ? 'bg-gray/10 backdrop-blur-md'
+    : 'bg-black backdrop-blur-md';
+
+  const linkClass = (path: string) =>
+    `hover:text-gray-200 ${pathname === path ? 'text-blue-400 font-bold underline' : 'text-white'}`;
 
   return (
-    <header className="absolute top-0 left-0 w-full z-20">
+    <header className={`${isHome ? 'absolute' : 'sticky'} top-0 w-full z-20 ${bgClass} text-white`}>
+
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href="/" className="text-white text-2xl font-bold">
+        <Link href="/" className="text-2xl font-bold">
           [City Name]
         </Link>
 
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-8 text-white">
+        {/* Desktop Nav */}
+        <div className="hidden md:flex space-x-8">
           <Link href="#services" className="hover:text-gray-200">Services</Link>
-          <Link href="#about" className="hover:text-gray-200">About</Link>
+          <Link href="/about" className={linkClass("/about")}>About</Link>
           <Link href="#contact" className="hover:text-gray-200">Contact</Link>
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Menu Toggle */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle Menu"
         >
@@ -35,15 +48,15 @@ export default function Header() {
         </button>
       </nav>
 
-      {/* Mobile Dropdown Menu */}
+      {/* Mobile Dropdown */}
       {menuOpen && (
-      <div className="md:hidden bg-gray/90 text-white px-6 py-4 flex space-x-6 justify-center">
-        <Link href="#services" onClick={() => setMenuOpen(false)}>Services</Link>
-        <Link href="#about" onClick={() => setMenuOpen(false)}>About</Link>
-        <Link href="#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
-      </div>
-    )}
+        <div className="md:hidden bg-/10 text-white px-6 py-4 flex space-x-6 justify-center">
 
+          <Link href="#services" onClick={() => setMenuOpen(false)}>Services</Link>
+          <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass("/about")}>About</Link>
+          <Link href="#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+        </div>
+      )}
     </header>
   );
 }

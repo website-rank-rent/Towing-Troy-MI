@@ -1,4 +1,3 @@
-// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "./components/Header";
@@ -29,15 +28,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-    >
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <head />
       <body className="bg-white text-gray-900">
-        {/* Global Header */}
         <Header />
-
-        {/* Page Content */}
         {children}
       </body>
     </html>
