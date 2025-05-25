@@ -9,22 +9,22 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  const isHome = pathname === '/';
-  const bgClass = isHome
-    ? 'bg-gray'
-    : 'bg-black backdrop-blur-md';
+  const isOverlayPage = pathname === '/' || pathname === '/about' || pathname === '/services';
+
+  const bgClass = isOverlayPage
+    ? 'bg-gray/10 backdrop-blur-md'
+    : 'bg-gray/10 backdrop-blur-md';
 
   const linkClass = (path: string) =>
     `hover:text-gray-200 ${pathname === path ? 'text-blue-400 font-bold underline' : 'text-white'}`;
 
   return (
-    <header className={`${isHome ? 'absolute' : 'sticky'} top-0 w-full z-20 ${bgClass} text-white`}>
+    <header className={`${isOverlayPage ? 'absolute' : 'sticky'} top-0 w-full z-20 ${bgClass} text-white`}>
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
           [City Name]
         </Link>
 
-        {/* Desktop Nav */}
         <div className="hidden md:flex space-x-8">
           <Link href="/services" className={linkClass("/services")}>Services</Link>
           <Link href="/about" className={linkClass("/about")}>About</Link>
@@ -32,7 +32,6 @@ export default function Header() {
           <Link href="/#testimonials" className="hover:text-gray-200">Reviews</Link>
         </div>
 
-        {/* Mobile Menu Toggle */}
         <button
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -46,9 +45,8 @@ export default function Header() {
         </button>
       </nav>
 
-      {/* Mobile Dropdown (side by side layout) */}
       {menuOpen && (
-        <div className="md:hidden bg-gray/90  text-white px-6 py-4 flex space-x-6 justify-center">
+        <div className="md:hidden bg-gray/90 backdrop-blur-md text-white px-6 py-4 flex space-x-6 justify-center">
           <Link href="/services" onClick={() => setMenuOpen(false)} className={linkClass("/services")}>Services</Link>
           <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass("/about")}>About</Link>
           <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
