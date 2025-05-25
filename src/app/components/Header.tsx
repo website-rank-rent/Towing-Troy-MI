@@ -10,10 +10,8 @@ export default function Header() {
   const pathname = usePathname();
 
   const isHome = pathname === '/';
-
-  // Apply light black transparency with blur on home, solid black on others
   const bgClass = isHome
-    ? 'bg-gray/10 backdrop-blur-md'
+    ? 'bg-black/10 backdrop-blur-md'
     : 'bg-black backdrop-blur-md';
 
   const linkClass = (path: string) =>
@@ -21,7 +19,6 @@ export default function Header() {
 
   return (
     <header className={`${isHome ? 'absolute' : 'sticky'} top-0 w-full z-20 ${bgClass} text-white`}>
-
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
           [City Name]
@@ -29,10 +26,10 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-8">
-          <Link href="#services" className="hover:text-gray-200">Services</Link>
+          <Link href="/services" className={linkClass("/services")}>Services</Link>
           <Link href="/about" className={linkClass("/about")}>About</Link>
-          <Link href="../#contact" className="hover:text-gray-200">Contact</Link>
-          <Link href="../#testimonials" onClick={() => setMenuOpen(false)}>Reviews</Link>
+          <Link href="/#contact" className="hover:text-gray-200">Contact</Link>
+          <Link href="/#testimonials" className="hover:text-gray-200">Reviews</Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -51,12 +48,11 @@ export default function Header() {
 
       {/* Mobile Dropdown */}
       {menuOpen && (
-        <div className="md:hidden bg-/10 text-white px-6 py-4 flex space-x-6 justify-center">
-
-          <Link href="#services" onClick={() => setMenuOpen(false)}>Services</Link>
+        <div className="md:hidden bg-black/90 backdrop-blur-md text-white px-6 py-4 flex flex-col space-y-4 items-center">
+          <Link href="/services" onClick={() => setMenuOpen(false)} className={linkClass("/services")}>Services</Link>
           <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass("/about")}>About</Link>
-          <Link href="../#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
-          <Link href="../#testimonials" onClick={() => setMenuOpen(false)}>Reviews</Link>
+          <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <Link href="/#testimonials" onClick={() => setMenuOpen(false)}>Reviews</Link>
         </div>
       )}
     </header>
