@@ -16,9 +16,9 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8 text-white">
-          <Link href="#services" className="hover:text-gray-200">Services      </Link>
-          <Link href="#about" className="hover:text-gray-200">About      </Link>
-          <Link href="#contact" className="hover:text-gray-200">Contact      </Link>
+          <Link href="#services" className="hover:text-gray-200">Services</Link>
+          <Link href="#about" className="hover:text-gray-200">About</Link>
+          <Link href="#contact" className="hover:text-gray-200">Contact</Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -37,12 +37,13 @@ export default function Header() {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-black/90 text-white px-6 py-4 space-y-4">
-          <Link href="#services" onClick={() => setMenuOpen(false)}>Services</Link>
-          <Link href="#about" onClick={() => setMenuOpen(false)}>About</Link>
-          <Link href="#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
-        </div>
-      )}
+      <div className="md:hidden bg-gray/90 text-white px-6 py-4 flex space-x-6 justify-center">
+        <Link href="#services" onClick={() => setMenuOpen(false)}>Services</Link>
+        <Link href="#about" onClick={() => setMenuOpen(false)}>About</Link>
+        <Link href="#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+      </div>
+    )}
+
     </header>
   );
 }
