@@ -9,7 +9,7 @@ export default function TestimonialSection() {
           {/* Testimonial 1 */}
           <div className="bg-white p-6 rounded-lg shadow">
             <p className="text-gray-700 text-lg italic">
-              "I broke down on I-285 and they were there in 15 minutes. Great service!"
+              &quot;I broke down on I-285 and they were there in 15 minutes. Great service!&quot;
             </p>
             <div className="mt-4 text-gray-900 font-semibold">– Marcus L., Dunwoody</div>
           </div>
@@ -17,7 +17,7 @@ export default function TestimonialSection() {
           {/* Testimonial 2 */}
           <div className="bg-white p-6 rounded-lg shadow">
             <p className="text-gray-700 text-lg italic">
-              "Fast, friendly, and affordable. Easily the best tow truck company near me."
+              &quot;Fast, friendly, and affordable. Easily the best tow truck company near me.&quot;
             </p>
             <div className="mt-4 text-gray-900 font-semibold">– Jasmine R., Perimeter Mall Area</div>
           </div>
