@@ -46,9 +46,9 @@ export default function Header() {
         </button>
       </nav>
 
-      {/* Mobile Dropdown */}
+      {/* Mobile Dropdown (side by side layout) */}
       {menuOpen && (
-        <div className="md:hidden bg-black/90 backdrop-blur-md text-white px-6 py-4 flex flex-col space-y-4 items-center">
+        <div className="md:hidden bg-gray/90  text-white px-6 py-4 flex space-x-6 justify-center">
           <Link href="/services" onClick={() => setMenuOpen(false)} className={linkClass("/services")}>Services</Link>
           <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass("/about")}>About</Link>
           <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
