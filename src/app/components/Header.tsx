@@ -22,7 +22,7 @@ export default function Header() {
     <header className={`${isOverlayPage ? 'absolute' : 'sticky'} top-0 w-full z-20 ${bgClass} text-white`}>
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
-          [City Name]
+          Dunwoody Towing
         </Link>
 
         <div className="hidden md:flex space-x-8">

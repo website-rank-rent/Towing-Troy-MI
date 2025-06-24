@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background image */}
       <Image
         src="/towtruckpullingtruck.png"
-        alt="Dunwoody Tow Truck taking an emergency call 24/7 near me"
+        alt="Dunwoody tow truck responding to emergency roadside assistance call 24/7"
         fill
         priority
         className="object-cover"
@@ -19,10 +19,10 @@ export default function Hero() {
       <div className="absolute w-full left-0 px-6" style={{ top: "20.5%" }}>
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-white text-5xl md:text-6xl font-extrabold">
-            TOW TRUCK SERVICE
+            TOW TRUCK SERVICE IN DUNWOODY
           </h1>
           <p className="mt-4 text-white text-lg md:text-xl">
-            Reliable Towing & Roadside Assistance
+            Reliable Towing & Roadside Assistance in Dunwoody, GA
           </p>
           <a
             href="tel:+18665307414"
@@ -37,10 +37,10 @@ export default function Hero() {
       <div className="absolute w-full left-0 px-6" style={{ top: "66%" }}>
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-white text-2xl md:text-3xl font-semibold">
-            24/7 EMERGENCY SERVICE
+            24/7 EMERGENCY TOWING SERVICE
           </h2>
           <p className="mt-2 text-white text-lg">
-            Fast, affordable towing and roadside assistance in Dunwoody and the surrounding area.
+            Fast, affordable towing and roadside assistance in Dunwoody and the greater Atlanta metro area.
           </p>
           <a
             href="tel:+18665307414"

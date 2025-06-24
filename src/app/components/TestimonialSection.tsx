@@ -9,9 +9,9 @@ export default function TestimonialSection() {
           {/* Testimonial 1 */}
           <div className="bg-white p-6 rounded-lg shadow">
             <p className="text-gray-700 text-lg italic">
-              &quot;I broke down on [local interstate] and they were there in 15 minutes. Great service!&quot;
+              &quot;I broke down on I-285 near Dunwoody and they were there in 20 minutes. Great service!&quot;
             </p>
-            <div className="mt-4 text-gray-900 font-semibold">– Marcus L., [City]</div>
+            <div className="mt-4 text-gray-900 font-semibold">– Marcus L., Dunwoody</div>
           </div>
 
           {/* Testimonial 2 */}
@@ -19,11 +19,10 @@ export default function TestimonialSection() {
             <p className="text-gray-700 text-lg italic">
               &quot;Fast, friendly, and affordable. Easily the best tow truck company near me.&quot;
             </p>
-            <div className="mt-4 text-gray-900 font-semibold">– Jasmine R., [Local City Area]</div>
+            <div className="mt-4 text-gray-900 font-semibold">– Jasmine R., Sandy Springs</div>
           </div>
         </div>
       </div>
     </section>
-    
   );
 }
