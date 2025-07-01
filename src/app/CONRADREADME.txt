@@ -5,4 +5,5 @@ npm install
 npm run dev
 
 
-might need to install tailwind but i cant remember if i did that 
+#Site map gen
+npm install next-sitemap

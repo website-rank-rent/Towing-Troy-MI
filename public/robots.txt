@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.dunwoodytowingservice.com
+
+# Sitemaps
+Sitemap: https://www.dunwoodytowingservice.com/sitemap.xml
