@@ -3,16 +3,23 @@
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false); // ✅ New
+
+  useEffect(() => {
+    setIsMounted(true); // ✅ Only run on client
+  }, []);
+
+  // Delay any DOM-based logic until component mounts
+  if (!isMounted) return null;
 
   const isOverlayPage =
     pathname === '/' || pathname === '/about' || pathname === '/services' || pathname === '/blog';
 
-  // Fix: Use a darker background to avoid whiteout effect over light images
   const bgClass = isOverlayPage
     ? 'bg-black/60 backdrop-blur-md shadow-md'
     : 'bg-black/60 backdrop-blur-md shadow-md';

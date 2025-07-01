@@ -10,13 +10,14 @@ export default function BlogPage() {
   return (
     <div className="relative min-h-screen">
       {/* Background Image */}
-      <Image
+
+    <Image
         src="/towtruckpullingtruck.png"
         alt="Tow truck background"
         fill
         priority
         className="object-cover z-0"
-      />
+    />
 
       {/* Overlay */}
       <div className="relative z-10 bg-black/30 backdrop-blur-sm min-h-screen flex items-center justify-center px-4 py-20">

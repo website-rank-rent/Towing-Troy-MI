@@ -3,7 +3,7 @@
 export const metadata = {
     title: "What To Do When Your Car Breaks Down | Dunwoody Towing",
     description:
-      "If your car breaks down in Dunwoody, here's what to do next. Learn how to stay safe and get help fast with our simple roadside guide.",
+      "If your car breaks down in Dunwoody, here&apos;s what to do next. Learn how to stay safe and get help fast with our simple roadside guide.",
   };
   
   export default function CarBreakdownPost() {
@@ -17,7 +17,7 @@ export const metadata = {
         <p className="text-sm text-gray-500 mb-6">Published on 2025-06-30</p>
   
         <p className="mb-4">
-          Your car just died — maybe on the highway, in a neighborhood, or right at a red light. Don’t panic. Breakdowns happen, and what you do in the next few minutes can keep you safe and save you time.
+          Your car just died — maybe on the highway, in a neighborhood, or right at a red light. Don&apos;t panic. Breakdowns happen, and what you do in the next few minutes can keep you safe and save you time.
         </p>
   
         <h2 className="text-2xl font-semibold mt-8 mb-2">
@@ -29,19 +29,19 @@ export const metadata = {
   
         <h2 className="text-2xl font-semibold mt-8 mb-2">2. Stay Visible</h2>
         <p className="mb-4">
-          Hazard lights are a must. If it’s nighttime or raining, keep your lights on. If you have road flares or a reflective triangle, set them up behind the car to alert oncoming drivers.
+          Hazard lights are a must. If it&apos;s nighttime or raining, keep your lights on. If you have road flares or a reflective triangle, set them up behind the car to alert oncoming drivers.
         </p>
   
         <h2 className="text-2xl font-semibold mt-8 mb-2">
-          3. Stay Inside If You’re in a Dangerous Area
+          3. Stay Inside If You&apos;re in a Dangerous Area
         </h2>
         <p className="mb-4">
-          If you're on a busy road or highway, it’s safer to stay inside the vehicle with your seatbelt on. Getting out near traffic can be extremely dangerous unless you’re in a low-traffic or safe spot.
+          If you&apos;re on a busy road or highway, it&apos;s safer to stay inside the vehicle with your seatbelt on. Getting out near traffic can be extremely dangerous unless you&apos;re in a low-traffic or safe spot.
         </p>
   
         <h2 className="text-2xl font-semibold mt-8 mb-2">4. Call for Help</h2>
         <p className="mb-4">
-          Whether it’s a flat tire, engine trouble, or something unknown, calling a towing service is usually the safest bet.{" "}
+          Whether it&apos;s a flat tire, engine trouble, or something unknown, calling a towing service is usually the safest bet.{" "}
           <strong>Dunwoody Towing</strong> offers 24/7 roadside assistance and will get you off the road quickly.
         </p>
   
@@ -53,10 +53,10 @@ export const metadata = {
         </p>
   
         <h2 className="text-2xl font-semibold mt-8 mb-2">
-          5. Don’t Accept Rides from Strangers
+          5. Don&apos;t Accept Rides from Strangers
         </h2>
         <p className="mb-4">
-          It’s better to wait for a trusted towing company or someone you know. Unfortunately, scammers and unsafe situations can arise when accepting rides from strangers.
+          It&apos;s better to wait for a trusted towing company or someone you know. Unfortunately, scammers and unsafe situations can arise when accepting rides from strangers.
         </p>
   
         <h2 className="text-2xl font-semibold mt-8 mb-2">
@@ -67,7 +67,7 @@ export const metadata = {
         </p>
   
         <p className="mt-8 text-gray-600 italic">
-          Dunwoody Towing — fast, friendly, and right around the corner when your day doesn't go as planned.
+          Dunwoody Towing — fast, friendly, and right around the corner when your day doesn&apos;t go as planned.
         </p>
       </main>
     );

@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Towing Services in [City Name] | Emergency Roadside & Flatbed Towing',
+  title: 'Towing Services in Dunwoody | Emergency Roadside & Flatbed Towing',
   description:
-    'Explore all towing services in [City Name]: emergency towing, roadside assistance, flatbed towing, lockouts, and accident recovery. Call now for 24/7 local help.',
+    'Explore all towing services in Dunwoody, GA: emergency towing, roadside assistance, flatbed towing, lockouts, and accident recovery. Call now for 24/7 local help.',
 };
 
 export default function ServicesPage() {
@@ -21,26 +21,26 @@ export default function ServicesPage() {
       {/* Overlay */}
       <div className="relative z-10 bg-black/30 backdrop-blur-sm min-h-screen flex items-center justify-center px-4 py-20">
         <main className="max-w-3xl bg-black/80 text-white p-8 rounded-xl shadow-lg">
-          <h1 className="text-4xl font-bold mb-6">Our Towing Services in [City Name]</h1>
+          <h1 className="text-4xl font-bold mb-6">Towing Services in Dunwoody</h1>
 
           <p className="mb-4 text-lg">
-            At [City Name] Towing, we&apos;re proud to offer 24/7 towing and roadside services designed to get you back on the road fast. If you searched for
-            <strong> tow truck near me</strong> or <strong>emergency towing in [City]</strong>, you&apos;re in the right place.
+            At Dunwoody Towing, we offer 24/7 towing and roadside services that are fast, affordable, and always local. If you searched for
+            <strong> tow truck near me</strong> or <strong>emergency towing in Dunwoody</strong>, you’re exactly where you need to be.
           </p>
 
-          <p className="mb-4 text-lg">Our most popular services include:</p>
+          <p className="mb-4 text-lg">Our most requested services include:</p>
 
           <ul className="list-disc pl-6 mb-4 text-lg">
-            <li><strong>24/7 Emergency Towing</strong> – Immediate dispatch for breakdowns and accidents</li>
+            <li><strong>24/7 Emergency Towing</strong> – Fast response when your vehicle won’t move</li>
             <li><strong>Roadside Assistance</strong> – Jump starts, tire changes, lockouts, and fuel delivery</li>
-            <li><strong>Flatbed Towing</strong> – Safe transport for luxury, electric, or damaged vehicles</li>
-            <li><strong>Accident Recovery</strong> – Secure recovery after collisions or mechanical failure</li>
-            <li><strong>Local & Long-Distance Towing</strong> – Affordable options for near and far transport</li>
+            <li><strong>Flatbed Towing</strong> – Ideal for luxury cars, EVs, and accident-damaged vehicles</li>
+            <li><strong>Accident Recovery</strong> – Safe and secure clean-up after a crash or breakdown</li>
+            <li><strong>Local & Long-Distance Towing</strong> – Affordable rates for both short and extended trips</li>
           </ul>
 
           <p className="text-lg mb-8">
-            Whether it&apos;s day or night, we&apos;re ready to help drivers throughout <strong>[City Name]</strong>, <strong>[Suburb 1]</strong>, <strong>[Suburb 2]</strong>, and the surrounding area. 
-            We&apos;re your trusted option when searching for <strong>&quot;tow truck companies near me&quot;</strong>.
+            We proudly serve Dunwoody and surrounding areas like Sandy Springs, Brookhaven, Chamblee, and Doraville. If you’ve typed in
+            <strong> "tow truck companies near me"</strong>, we’re already on our way.
           </p>
 
           <div className="text-center">
