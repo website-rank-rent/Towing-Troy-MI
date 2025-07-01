@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'Towing Services in Dunwoody | Emergency Roadside & Flatbed Towing',
@@ -8,6 +9,7 @@ export const metadata = {
 
 export default function ServicesPage() {
   return (
+    <div>
     <div className="relative min-h-screen">
       {/* Background Image */}
       <Image
@@ -53,6 +55,8 @@ export default function ServicesPage() {
           </div>
         </main>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }

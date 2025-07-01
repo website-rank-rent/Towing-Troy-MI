@@ -1,5 +1,6 @@
 // src/app/about/page.tsx
 import Image from 'next/image';
+import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'About Our Towing Company in [City Name] | 24/7 Tow Truck Service',
@@ -8,6 +9,7 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
+    <div>
     <div className="relative min-h-screen">
       {/* Background Image */}
       <Image
@@ -60,6 +62,8 @@ export default function AboutPage() {
           </div>
         </main>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }
