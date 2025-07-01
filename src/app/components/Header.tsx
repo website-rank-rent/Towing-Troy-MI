@@ -9,11 +9,13 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  const isOverlayPage = pathname === '/' || pathname === '/about' || pathname === '/services';
+  const isOverlayPage =
+    pathname === '/' || pathname === '/about' || pathname === '/services' || pathname === '/blog';
 
+  // Fix: Use a darker background to avoid whiteout effect over light images
   const bgClass = isOverlayPage
-    ? 'bg-gray/10 backdrop-blur-md'
-    : 'bg-gray/10 backdrop-blur-md';
+    ? 'bg-black/60 backdrop-blur-md shadow-md'
+    : 'bg-black/60 backdrop-blur-md shadow-md';
 
   const linkClass = (path: string) =>
     `hover:text-gray-200 ${pathname === path ? 'text-blue-400 font-bold underline' : 'text-white'}`;
@@ -29,6 +31,7 @@ export default function Header() {
           <Link href="/" className={linkClass("/")}>Home</Link>
           <Link href="/services" className={linkClass("/services")}>Services</Link>
           <Link href="/about" className={linkClass("/about")}>About</Link>
+          <Link href="/blog" className={linkClass("/blog")}>Blog</Link>
           <Link href="/#contact" className="hover:text-gray-200">Contact</Link>
           <Link href="/#testimonials" className="hover:text-gray-200">Reviews</Link>
         </div>
@@ -47,10 +50,11 @@ export default function Header() {
       </nav>
 
       {menuOpen && (
-        <div className="md:hidden bg-gray/90 backdrop-blur-md text-white px-6 py-4 flex space-x-6 justify-center">
+        <div className="md:hidden bg-black/90 backdrop-blur-md text-white px-6 py-4 flex flex-col space-y-4 text-center">
           <Link href="/" onClick={() => setMenuOpen(false)} className={linkClass("/")}>Home</Link>
           <Link href="/services" onClick={() => setMenuOpen(false)} className={linkClass("/services")}>Services</Link>
           <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass("/about")}>About</Link>
+          <Link href="/blog" onClick={() => setMenuOpen(false)} className={linkClass("/blog")}>Blog</Link>
           <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
           <Link href="/#testimonials" onClick={() => setMenuOpen(false)}>Reviews</Link>
         </div>
