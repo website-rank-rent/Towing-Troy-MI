@@ -8,27 +8,24 @@ import { useEffect, useState } from 'react';
 export default function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isMounted, setIsMounted] = useState(false); // ✅ New
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true); // ✅ Only run on client
+    setIsClient(true); // Only true after client hydration
   }, []);
 
-  // Delay any DOM-based logic until component mounts
-  if (!isMounted) return null;
+  const isOverlayPage = isClient
+    ? pathname === '/' || pathname === '/about' || pathname === '/services' || pathname === '/blog'
+    : false;
 
-  const isOverlayPage =
-    pathname === '/' || pathname === '/about' || pathname === '/services' || pathname === '/blog';
-
-  const bgClass = isOverlayPage
-    ? 'bg-black/60 backdrop-blur-md shadow-md'
-    : 'bg-black/60 backdrop-blur-md shadow-md';
+  const bgClass = 'bg-black/60 backdrop-blur-md shadow-md';
+  const positionClass = isOverlayPage ? 'absolute' : 'sticky';
 
   const linkClass = (path: string) =>
     `hover:text-gray-200 ${pathname === path ? 'text-blue-400 font-bold underline' : 'text-white'}`;
 
   return (
-    <header className={`${isOverlayPage ? 'absolute' : 'sticky'} top-0 w-full z-20 ${bgClass} text-white`}>
+    <header className={`${positionClass} top-0 w-full z-20 ${bgClass} text-white`}>
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
           Dunwoody Towing

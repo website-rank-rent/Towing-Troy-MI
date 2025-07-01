@@ -10,28 +10,27 @@ export default function BlogPage() {
   return (
     <div className="relative min-h-screen">
       {/* Background Image */}
-
-    <Image
+      <Image
         src="/towtruckpullingtruck.png"
         alt="Tow truck background"
         fill
         priority
         className="object-cover z-0"
-    />
+      />
 
       {/* Overlay */}
       <div className="relative z-10 bg-black/30 backdrop-blur-sm min-h-screen flex items-center justify-center px-4 py-20">
         <main className="max-w-3xl bg-black/80 text-white p-8 rounded-xl shadow-lg">
-          <h1 className="text-4xl font-bold mb-6">Towing & Roadside Tips</h1>
+          <h1 className="text-4xl font-bold mb-6">Towing &amp; Roadside Tips</h1>
 
           <p className="mb-6 text-lg">
-            Welcome to the Dunwoody Towing blog. Whether you're dealing with a roadside emergency or just want to be prepared, our articles are here to help.
+            Welcome to the Dunwoody Towing blog. Whether you&apos;re dealing with a roadside emergency or just want to be prepared, our articles are here to help.
           </p>
 
           <ul className="list-disc pl-6 space-y-2 text-blue-400 text-lg">
             <li>
               <a href="/blog/car-lockout" className="hover:underline">
-                Locked Out of Your Car in Dunwoody? Here’s What To Do
+                Locked Out of Your Car in Dunwoody? Here&apos;s What To Do
               </a>
             </li>
             <li>
