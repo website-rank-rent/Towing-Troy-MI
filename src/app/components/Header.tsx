@@ -63,7 +63,8 @@ export default function Header() {
           <Link href="/#testimonials" onClick={() => setMenuOpen(false)}>Reviews</Link>
         </div>
       )}
+      console.log("header loaded ++++++++++++++++++++++++++++++++++++++++++++")
     </header>
   );
-  console.log("header loaded ++++++++++++++++++++++++++++++++++++++++++++")
+  
 }
