@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="absolute w-full left-0 px-6" style={{ top: "66%" }}>
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-white text-2xl md:text-3xl font-semibold">
-            24/7 EMERGENCY TOWING SERVICE
+            24/7 EMERGENCY TOWING SERVICE Near you!
           </h2>
           <p className="mt-2 text-white text-lg">
             Fast, affordable towing and roadside assistance in Dunwoody and the greater Atlanta metro area.
