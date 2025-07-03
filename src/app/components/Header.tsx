@@ -27,7 +27,6 @@ export default function Header() {
 
   return (
     <header className={`${positionClass} top-0 w-full z-20 ${bgClass} text-white`}>
-      console.log('header +++++++++++++++++++++++++++++++');
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
           Dunwoody Towing
