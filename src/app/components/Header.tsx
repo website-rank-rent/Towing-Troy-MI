@@ -6,7 +6,8 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 export default function Header() {
-  console.log("header loaded ++++++++++++++++++++++++++++++++++++++++++++");
+  const msg = "header";
+  console.log(msg);
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
