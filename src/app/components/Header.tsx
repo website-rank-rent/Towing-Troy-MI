@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 
 export default function Header() {
 
+  console.log('Header_____+++++++++++++++++++++++++++++_------')
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
