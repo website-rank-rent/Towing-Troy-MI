@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 export default function Header() {
+  console.log("header loaded ++++++++++++++++++++++++++++++++++++++++++++");
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
@@ -63,7 +64,6 @@ export default function Header() {
           <Link href="/#testimonials" onClick={() => setMenuOpen(false)}>Reviews</Link>
         </div>
       )}
-      console.log("header loaded ++++++++++++++++++++++++++++++++++++++++++++")
     </header>
   );
   
