@@ -65,4 +65,5 @@ export default function Header() {
       )}
     </header>
   );
+  console.log("header loaded ++++++++++++++++++++++++++++++++++++++++++++")
 }
