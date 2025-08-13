@@ -11,6 +11,7 @@ export default function Footer() {
           <li><a href="/roswell-road">Roswell Road</a></li>
           <li><a href="/perimeter-center">Perimeter Center</a></li>
           <li><a href="/mount-vernon-road">Mount Vernon Road</a></li>
+          <li><a href="/partners" className="text-sm text-gray-500 hover:underline">Partners</a></li>
         </ul>
         <p className="text-gray-400 text-xs">&copy; {new Date().getFullYear()} Your Towing Company. All rights reserved.</p>
       </footer>

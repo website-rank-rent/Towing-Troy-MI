@@ -12,9 +12,22 @@ export default function Home() {
       <Hero />
       <ServicesTeaser />
       <TestimonialSection />
-      <Contact/>
-      <Footer/>
-      
+      <Contact />
+
+      {/* Partner backlink block */}
+      <div className="mt-8 border-t pt-4 text-center text-sm text-gray-500">
+        Partner:{" "}
+        <a
+          href="https://www.iroadsideservice.com/"
+          rel="nofollow sponsored noopener"
+          target="_blank"
+          className="underline"
+        >
+          Marietta Tow Pros
+        </a>
+      </div>
+
+      <Footer />
     </>
   );
 }
