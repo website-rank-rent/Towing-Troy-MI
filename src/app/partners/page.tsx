@@ -24,7 +24,7 @@ export default function PartnersPage() {
       {/* Replace the src below with the path to your image in /public if you save it there */}
       <div className="mb-6">
         <Image
-          src="/iroadside18wheel.png"
+          src="/iroadside18wheel.jpg"
           alt="Partner's red heavy-duty tow truck used for semi-truck towing and recovery in Metro Atlanta"
           width={1200}
           height={800}
@@ -38,7 +38,7 @@ export default function PartnersPage() {
         <li>
           <strong>Heavy-duty wrecker & semi-truck towing:</strong> ideal for Class 7–8 trucks, tractors, and trailers.
         </li>
-        <li>
+        <li>~``
           <strong>Accident recovery & winch-outs:</strong> lane-safe recoveries, load shifts, and roadside scene support.
         </li>
         <li>

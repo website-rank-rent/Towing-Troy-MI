@@ -23,7 +23,7 @@ export default function Home() {
           target="_blank"
           className="underline"
         >
-          Marietta Tow Pros
+          IRoadSide Service
         </a>
       </div>
 
