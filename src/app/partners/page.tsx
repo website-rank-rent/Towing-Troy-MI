@@ -3,29 +3,25 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Trusted Towing Partner in Metro Atlanta | Heavy-Duty & Semi-Truck Towing",
+  title: "Trusted Towing Service in Troy, MI | Heavy-Duty & Semi-Truck Towing",
   description:
-    "Meet our trusted partner for heavy-duty towing in Metro Atlanta. They run a distinctive red heavy-duty tow truck for semi-truck towing, accident recovery, and 24/7 roadside assistance.",
+    "Learn about our heavy-duty towing capabilities in Troy, Michigan. We handle semi-truck towing, accident recovery, and 24/7 roadside assistance along major corridors and commercial areas.",
 };
 
 export default function PartnersPage() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-16">
-      <h1 className="text-3xl font-bold mb-6">Trusted Partners</h1>
+      <h1 className="text-3xl font-bold mb-6">Heavy-Duty & Commercial Towing in Troy</h1>
 
       <p className="mb-4 text-gray-700">
-        We collaborate with reputable towing providers serving nearby areas. Our primary partner operates a
-        distinctive <strong>red heavy-duty tow truck</strong> that’s purpose-built for{" "}
-        <strong>semi-truck towing</strong>, <strong>tractor-trailer recovery</strong>, and{" "}
-        <strong>heavy equipment transport</strong> across Metro Atlanta. When jobs require extra capacity or
-        specialized gear, this partner is our first call.
+        Our team in <strong>Troy, Michigan</strong> is equipped to handle heavy-duty towing, semi-truck recovery, and specialized roadside assistance. 
+        We operate a purpose-built <strong>red heavy-duty tow truck</strong> capable of handling tractor-trailers, buses, and other large commercial vehicles.
       </p>
 
-      {/* Replace the src below with the path to your image in /public if you save it there */}
       <div className="mb-6">
         <Image
           src="/iroadside18wheel.jpg"
-          alt="Partner's red heavy-duty tow truck used for semi-truck towing and recovery in Metro Atlanta"
+          alt="Heavy-duty tow truck used for semi-truck towing and recovery in Troy, MI"
           width={1200}
           height={800}
           className="rounded-lg shadow-md w-full h-auto"
@@ -33,75 +29,55 @@ export default function PartnersPage() {
         />
       </div>
 
-      <h2 className="text-2xl font-semibold mb-3">Why we recommend them</h2>
+      <h2 className="text-2xl font-semibold mb-3">Why choose our heavy-duty towing</h2>
       <ul className="list-disc pl-6 space-y-2 mb-6 text-gray-700">
         <li>
-          <strong>Heavy-duty wrecker & semi-truck towing:</strong> ideal for Class 7–8 trucks, tractors, and trailers.
-        </li>
-        <li>~``
-          <strong>Accident recovery & winch-outs:</strong> lane-safe recoveries, load shifts, and roadside scene support.
+          <strong>Heavy-duty & semi-truck towing:</strong> capable of Class 7–8 trucks, trailers, and commercial vehicles.
         </li>
         <li>
-          <strong>Long-distance & local hauling:</strong> safe transport for box trucks, buses, and construction equipment.
+          <strong>Accident recovery & winch-outs:</strong> safe recoveries on highways, commercial lots, and industrial areas.
         </li>
         <li>
-          <strong>24/7 roadside assistance:</strong> jump starts, lockouts, and tire service for commercial fleets.
+          <strong>Long-distance & local transport:</strong> secure hauling for trucks, buses, and construction equipment.
+        </li>
+        <li>
+          <strong>24/7 roadside assistance:</strong> jump starts, lockouts, and tire service for commercial and fleet vehicles.
         </li>
       </ul>
 
       <h2 className="text-2xl font-semibold mb-3">Service areas</h2>
       <p className="mb-6 text-gray-700">
-        Atlanta, Marietta, Sandy Springs, Roswell, Alpharetta, Brookhaven, Chamblee, Doraville, Tucker, and
-        surrounding North Metro communities.
+        Serving the entire Troy, Michigan area, including Big Beaver Road, Crooks Road, Maple Road, Stephenson Highway, and M-59 corridor, as well as surrounding commercial zones and industrial parks.
       </p>
 
-      <ul className="list-disc pl-6 space-y-2 mb-10">
-        <li>
-          <a
-            href="https://www.iroadsideservice.com/"
-            rel="nofollow sponsored noopener"
-            target="_blank"
-            className="underline"
-          >
-            Marietta Tow Pros
-          </a>
-          <span className="text-gray-500"> — overflow coverage for Marietta & I-75 corridor</span>
-        </li>
-      </ul>
-
-      {/* SEO: Structured data describing the partner as a TowingService */}
+      {/* SEO: Structured data describing the heavy-duty towing service */}
       <script
         type="application/ld+json"
-        // Note: keep fields high-level since we don’t control the partner’s exact NAP here
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "TowingService",
-            "name": "Marietta Tow Pros",
-            "url": "https://www.iroadsideservice.com/",
+            "name": "Troy Heavy-Duty Towing",
             "areaServed": [
-              "Atlanta",
-              "Marietta",
-              "Sandy Springs",
-              "Roswell",
-              "Alpharetta",
-              "Brookhaven",
-              "Chamblee",
-              "Doraville",
-              "Tucker"
+              "Troy, MI",
+              "Big Beaver Road, Troy",
+              "Crooks Road, Troy",
+              "Maple Road, Troy",
+              "Stephenson Highway, Troy",
+              "M-59 Corridor, Troy"
             ],
-            "image": "/iroadside18wheel.png",
+            "image": "/iroadside18wheel.jpg",
             "description":
-              "Trusted heavy-duty towing partner operating a red heavy-duty tow truck for semi-truck towing, tractor-trailer recovery, and 24/7 roadside assistance in Metro Atlanta.",
+              "Professional heavy-duty towing in Troy, MI. Semi-truck towing, accident recovery, and 24/7 roadside assistance for commercial vehicles.",
             "keywords": [
               "heavy-duty towing",
               "semi-truck towing",
               "tractor-trailer recovery",
-              "wrecker service",
+              "commercial towing",
               "accident recovery",
               "long-distance towing",
               "fleet roadside assistance"
-            ],
+            ]
           }),
         }}
       />

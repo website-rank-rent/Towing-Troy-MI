@@ -12,24 +12,24 @@ export default function Header() {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true); // Only true after client hydration
+    setIsClient(true); // Only set after hydration to avoid mismatch
   }, []);
 
   const isOverlayPage = isClient
     ? pathname === '/' || pathname === '/about' || pathname === '/services' || pathname === '/blog'
     : false;
 
-  const bgClass = 'bg-black/60 backdrop-blur-md shadow-md';
+  const bgClass = 'bg-black/60 backdrop-blur-md shadow-lg';
   const positionClass = isOverlayPage ? 'absolute' : 'sticky';
 
   const linkClass = (path: string) =>
-    `hover:text-gray-200 ${pathname === path ? 'text-blue-400 font-bold underline' : 'text-white'}`;
+    `hover:text-gray-200 ${pathname === path ? 'text-yellow-400 font-bold underline' : 'text-white'}`;
 
   return (
     <header className={`${positionClass} top-0 w-full z-20 ${bgClass} text-white`}>
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold">
-          Dunwoody Towing
+        <Link href="/" className="text-2xl font-bold tracking-wide">
+          Troy Towing & Roadside
         </Link>
 
         <div className="hidden md:flex space-x-8">
@@ -38,7 +38,7 @@ export default function Header() {
           <Link href="/about" className={linkClass("/about")}>About</Link>
           <Link href="/blog" className={linkClass("/blog")}>Blog</Link>
           <Link href="/#contact" className="hover:text-gray-200">Contact</Link>
-          <Link href="/#testimonials" className="hover:text-gray-200">Reviews</Link>
+          <Link href="/#testimonials" className="hover:text-gray-200">Customer Reviews</Link>
         </div>
 
         <button
@@ -61,10 +61,9 @@ export default function Header() {
           <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass("/about")}>About</Link>
           <Link href="/blog" onClick={() => setMenuOpen(false)} className={linkClass("/blog")}>Blog</Link>
           <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
-          <Link href="/#testimonials" onClick={() => setMenuOpen(false)}>Reviews</Link>
+          <Link href="/#testimonials" onClick={() => setMenuOpen(false)}>Customer Reviews</Link>
         </div>
       )}
     </header>
   );
-  
 }

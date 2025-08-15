@@ -3,23 +3,23 @@ export default function ServicesTeaser() {
     <section id="services" className="py-16 bg-white">
       <div className="max-w-5xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold text-gray-900">
-          24/7 Emergency Towing & Roadside Assistance in Metro Atlanta
+          24/7 Emergency Towing & Roadside Help in Troy, Michigan
         </h2>
 
         <p className="mt-4 text-lg text-gray-700">
-          Need a <strong>tow truck near you</strong>? We provide
-          <strong> fast, affordable, and professional towing services</strong> across{" "}
-          <strong>Metro Atlanta</strong> — including Dunwoody, Sandy Springs, Brookhaven,
-          Buckhead, Decatur, Roswell, Alpharetta, and surrounding areas. Whether you’re
-          stranded on I-285, GA-400, or in your own driveway, our licensed and insured
-          team is ready to help <strong>24/7</strong>.
+          Looking for a <strong>tow truck in Troy</strong>? Our team delivers
+          <strong> prompt, dependable, and affordable towing services</strong> across{" "}
+          <strong>Troy and the surrounding Metro Detroit area</strong> — including
+          Sterling Heights, Royal Oak, Madison Heights, Birmingham, Rochester Hills, and Clawson. 
+          Whether you’re stuck on I-75, M-59, or in your neighborhood driveway, our licensed and insured
+          drivers are ready to assist <strong>day or night</strong>.
         </p>
 
         <p className="mt-2 text-lg text-gray-700">
-          From <strong>emergency towing</strong> to <strong>scheduled vehicle transport</strong>,
-          we handle it all — flatbed towing, jump starts, tire changes, lockouts, fuel
-          delivery, winch outs, and more. Our drivers know the fastest routes across
-          Atlanta’s highways and neighborhoods, so you’re never left waiting.
+          From <strong>emergency vehicle recovery</strong> to <strong>scheduled auto transport</strong>,
+          we cover it all — flatbed towing, battery jump starts, tire changes, lockouts,
+          fuel delivery, winch recovery, and more. Our drivers know the quickest routes
+          through Troy’s roads and nearby cities so you’re never left waiting.
         </p>
 
         {/* Service Links */}
@@ -29,8 +29,7 @@ export default function ServicesTeaser() {
               Flatbed Towing Near Me
             </h3>
             <p className="mt-1 text-gray-700 text-base">
-              Safe transport for all-wheel drive, luxury, and specialty vehicles in
-              Metro Atlanta.
+              Secure transport for AWD, luxury, and classic cars in Troy and beyond.
             </p>
           </div>
           <div>
@@ -38,15 +37,15 @@ export default function ServicesTeaser() {
               Roadside Assistance
             </h3>
             <p className="mt-1 text-gray-700 text-base">
-              Jump starts, tire changes, lockouts, and fuel delivery — available 24/7.
+              Battery boosts, tire replacements, lockout help, and gas delivery — available 24/7.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-semibold text-gray-900">
-              Long-Distance Towing
+              Long-Distance Vehicle Transport
             </h3>
             <p className="mt-1 text-gray-700 text-base">
-              Affordable vehicle transport anywhere in Georgia or beyond.
+              Affordable transport anywhere in Michigan or to neighboring states.
             </p>
           </div>
           <div>
@@ -54,15 +53,15 @@ export default function ServicesTeaser() {
               Accident Recovery
             </h3>
             <p className="mt-1 text-gray-700 text-base">
-              Fast, safe removal of vehicles after collisions with minimal damage.
+              Quick, safe removal of vehicles after crashes with minimal risk of damage.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-semibold text-gray-900">
-              Winch Out Service
+              Winch & Recovery Service
             </h3>
             <p className="mt-1 text-gray-700 text-base">
-              Recover vehicles stuck in mud, snow, or off-road terrain.
+              Retrieve vehicles stuck in snowbanks, mud, or off-road conditions.
             </p>
           </div>
           <div>
@@ -70,7 +69,7 @@ export default function ServicesTeaser() {
               Private Property Towing
             </h3>
             <p className="mt-1 text-gray-700 text-base">
-              Remove unauthorized vehicles from business or residential lots.
+              Remove illegally parked vehicles from commercial or residential spaces.
             </p>
           </div>
         </div>
@@ -84,14 +83,13 @@ export default function ServicesTeaser() {
         </a>
 
         {/* Local SEO microdata */}
-        <meta itemProp="areaServed" content="Atlanta, GA" />
-        <meta itemProp="areaServed" content="Dunwoody, GA" />
-        <meta itemProp="areaServed" content="Sandy Springs, GA" />
-        <meta itemProp="areaServed" content="Brookhaven, GA" />
-        <meta itemProp="areaServed" content="Buckhead, Atlanta, GA" />
-        <meta itemProp="areaServed" content="Decatur, GA" />
-        <meta itemProp="areaServed" content="Roswell, GA" />
-        <meta itemProp="areaServed" content="Alpharetta, GA" />
+        <meta itemProp="areaServed" content="Troy, MI" />
+        <meta itemProp="areaServed" content="Sterling Heights, MI" />
+        <meta itemProp="areaServed" content="Royal Oak, MI" />
+        <meta itemProp="areaServed" content="Madison Heights, MI" />
+        <meta itemProp="areaServed" content="Birmingham, MI" />
+        <meta itemProp="areaServed" content="Rochester Hills, MI" />
+        <meta itemProp="areaServed" content="Clawson, MI" />
       </div>
     </section>
   );

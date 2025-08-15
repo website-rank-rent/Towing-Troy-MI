@@ -3,26 +3,27 @@ export default function TestimonialSection() {
     <section id="testimonials" className="bg-gray-100 py-16">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold text-gray-900 mb-10">
-          What Our Customers Say
+          Hear From Our Troy Customers
         </h2>
         <div className="grid gap-8 md:grid-cols-2">
           {/* Testimonial 1 */}
           <div className="bg-white p-6 rounded-lg shadow">
             <p className="text-gray-700 text-lg italic">
-              &quot;I broke down on I-285 near Dunwoody and they were there in 20 minutes. Great service!&quot;
+              &quot;My car stalled out on I-75 right outside Troy and they had a truck to me in less than 25 minutes. Couldn’t have asked for better help.&quot;
             </p>
-            <div className="mt-4 text-gray-900 font-semibold">– Marcus L., Dunwoody</div>
+            <div className="mt-4 text-gray-900 font-semibold">– Ryan T., Troy</div>
           </div>
 
           {/* Testimonial 2 */}
           <div className="bg-white p-6 rounded-lg shadow">
             <p className="text-gray-700 text-lg italic">
-              &quot;Fast, friendly, and affordable. Easily the best tow truck company near me.&quot;
+              &quot;Prompt, courteous, and reasonably priced. Definitely my go-to towing service in Oakland County.&quot;
             </p>
-            <div className="mt-4 text-gray-900 font-semibold">– Jasmine R., Sandy Springs</div>
+            <div className="mt-4 text-gray-900 font-semibold">– Danielle M., Rochester Hills</div>
           </div>
         </div>
       </div>
     </section>
   );
 }
+

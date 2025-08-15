@@ -18,12 +18,12 @@ export default function Home() {
       <div className="mt-8 border-t pt-4 text-center text-sm text-gray-500">
         Partner:{" "}
         <a
-          href="https://www.iroadsideservice.com/"
+          href="https://example.com/"
           rel="nofollow sponsored noopener"
           target="_blank"
           className="underline"
         >
-          IRoadSide Service
+          Example Service
         </a>
       </div>
 

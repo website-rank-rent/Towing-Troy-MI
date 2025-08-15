@@ -1,20 +1,20 @@
 import Image from 'next/image';
-import Footer from '../components/Footer';
+import Footer from '../../components/Footer';
 
 export const metadata = {
-  title: 'Towing Near Perimeter Center | Fast Tow Truck in Dunwoody',
+  title: 'Tow Truck on Big Beaver Road | 24/7 Roadside Help in Troy Michigan',
   description:
-    'Need towing at Perimeter Center? We provide fast, reliable service near Perimeter Mall, Ravinia, and the Dunwoody MARTA station. Call now for 24/7 help.',
+    'Need towing on Big Beaver Road? We provide fast, dependable service near Somerset Collection, I-75, and downtown Troy. Call now for roadside assistance.',
 };
 
-export default function PerimeterCenterPage() {
+export default function BigBeaverRoadPage() {
   return (
     <div>
       <div className="relative min-h-screen">
         {/* Background image */}
         <Image
           src="/towtruckpullingtruck.png"
-          alt="Towing service near Perimeter Center"
+          alt="Tow truck near Big Beaver Road in Troy Michigan"
           fill
           priority
           className="object-cover z-0"
@@ -24,34 +24,33 @@ export default function PerimeterCenterPage() {
         <div className="relative z-10 bg-black/30 backdrop-blur-sm min-h-screen flex items-center justify-center px-4 py-20">
           <main className="max-w-3xl bg-black/80 text-white p-8 rounded-xl shadow-lg">
             <h1 className="text-4xl font-bold mb-6">
-              Emergency Towing in Perimeter Center – Dunwoody, GA
+              Reliable Towing on Big Beaver Road
             </h1>
 
             <p className="mb-4 text-lg">
-              If you&rsquo;re stuck near Perimeter Mall, Ravinia, or one of the many office towers in Perimeter Center, we&rsquo;ve got a truck close by and ready to assist — day or night.
+              Whether you&rsquo;re stuck near Somerset Collection, waiting outside the Troy Marriott, or dealing with car trouble close to I-75, our tow truck team is already in the area and ready to respond quickly.
             </p>
 
             <p className="mb-4 text-lg">
-              This area is one of the busiest in Dunwoody, especially during rush hour. Whether your battery died in a parking deck or you&rsquo;re stuck at a traffic light, we respond fast.
+              We&rsquo;re proud to provide trusted, prompt towing services along Big Beaver Road — day or night, rain or shine.
             </p>
 
             <ul className="list-disc pl-6 mb-4 text-lg">
-              <li>24/7 towing near Perimeter Mall and Hammond Exchange</li>
-              <li>Jump starts, tire service, lockout help, and fuel delivery</li>
-              <li>Flatbed towing for breakdowns and accident response</li>
-              <li>Fast arrival to MARTA, Crowne Plaza, and surrounding hotels</li>
+              <li>Rapid-response towing from Coolidge Highway to John R Road</li>
+              <li>Jump starts, tire replacements, and vehicle unlocks</li>
+              <li>Flatbed towing for breakdowns and accident recovery</li>
+              <li>Service available near Troy Community Center & Somerset Mall</li>
             </ul>
 
             <p className="mb-4 text-lg">
-              Perimeter Center is a dense, high-traffic zone — our drivers are based nearby so you&rsquo;re never waiting long for a tow or roadside solution.
+              With heavy traffic from office parks, retail centers, and I-75 commuters, Big Beaver Road can be a challenging place to break down — but we can get to you fast and get you moving again.
             </p>
 
             <p className="text-lg mb-8">
-              Need help right now? Call our local dispatch at{' '}
+              Call us now for towing or roadside help on Big Beaver Road:{' '}
               <a href="tel:+18665307414" className="text-blue-400 font-semibold">
                 (866) 530-7414
-              </a>{' '}
-              for immediate assistance.
+              </a>
             </p>
 
             <div className="text-center">
