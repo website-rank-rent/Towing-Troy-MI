@@ -52,8 +52,8 @@ export default function BlogPage() {
 
           <p className="mt-8 text-lg">
             Need immediate towing or roadside help in Troy, MI? Call us now at{' '}
-            <a href="tel:+18665307414" className="text-blue-400 font-semibold">
-              (866) 530-7414
+            <a href="tel:+11111111111" className="text-blue-400 font-semibold">
+              (111) 111-1111
             </a>
             .
           </p>

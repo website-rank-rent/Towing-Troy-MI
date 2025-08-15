@@ -29,8 +29,8 @@ export default function TowingTipsTroyPage() {
 
       <p className="text-lg mb-8">
         Call now for trusted towing and roadside assistance in Troy, MI:{' '}
-        <a href="tel:+18665307414" className="text-blue-600 font-semibold">
-          (866) 530-7414
+        <a href="tel:+11111111111" className="text-blue-600 font-semibold">
+          (111) 111-1111
         </a>
       </p>
     </main>

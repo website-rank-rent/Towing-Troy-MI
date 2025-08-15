@@ -12,10 +12,10 @@ export default function Contact() {
           and neighboring Oakland County communities. One call and help is on the way.
         </p>
         <a
-          href="tel:+18665307414"
+          href="tel:+11111111111"
           className="mt-6 inline-block text-3xl font-bold text-yellow-600"
         >
-          (866) 530-7414
+          (111) 111-1111
         </a>
       </div>
     </section>

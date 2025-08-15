@@ -45,8 +45,8 @@ export default function CarBreakdownTroyPost() {
 
       <p className="mb-4">
         <strong>Need immediate help?</strong>{" "}
-        <a href="tel:+18665307414" className="text-blue-600 font-semibold">
-          (866) 530-7414
+        <a href="tel:+11111111111" className="text-blue-600 font-semibold">
+          (111) 111-1111
         </a>
       </p>
 

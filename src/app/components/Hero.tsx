@@ -44,12 +44,12 @@ export default function Hero() {
           {/* Primary CTA */}
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="tel:+18665307414"
+              href="tel:+11111111111"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-md transition"
               aria-label="Call Troy Michigan Tow Truck now at 866-530-7414"
               itemProp="telephone"
             >
-              CALL 24/7 • (866) 530-7414
+              CALL 24/7 • (111) 111-1111
             </a>
 
             <a
