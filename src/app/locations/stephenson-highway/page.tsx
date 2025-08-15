@@ -13,7 +13,7 @@ export default function StephensonHighwayPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image
-          src="/towtruckpullingtruck.png"
+          src="/towTruckPulling.jpg"
           alt="Tow truck on Stephenson Highway in Troy Michigan"
           fill
           priority

@@ -13,7 +13,7 @@ export default function BigBeaverRoadPage() {
       <div className="relative min-h-screen">
         {/* Background image */}
         <Image
-          src="/towtruckpullingtruck.png"
+          src="/towTruckPulling.jpg"
           alt="Tow truck near Big Beaver Road in Troy Michigan"
           fill
           priority

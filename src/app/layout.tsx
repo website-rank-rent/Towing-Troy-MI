@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dunwoody Towing | 24/7 Emergency Tow Service",
+  title: "Troy Towing | 24/7 Emergency Tow Service",
   description:
-    "Fast, reliable 24/7 towing in Dunwoody, GA. Emergency roadside assistance, flatbed towing, lockouts and more. Call now for immediate help!",
+    "Fast, reliable 24/7 towing in Troy, MI. Emergency roadside assistance, flatbed towing, lockouts and more. Call now for immediate help!",
   alternates: {
-    canonical: "https://dunwoodytowing.com",
+    canonical: "https://troytowing.com",
   },
 };
 

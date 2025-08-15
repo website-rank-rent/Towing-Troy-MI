@@ -14,7 +14,7 @@ export default function AboutPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image
-          src="/yellowTowTruck.jpg"
+          src="/red-truck-tow.jpg"
           alt="Tow truck in Troy, Michigan"
           fill
           priority

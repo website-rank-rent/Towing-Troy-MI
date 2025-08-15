@@ -11,7 +11,7 @@ export default function BlogPage() {
     <div className="relative min-h-screen">
       {/* Background Image */}
       <Image
-        src="/towtruckpullingtruck.png"
+        src="/towTruckPulling.jpg"
         alt="Tow truck assisting a vehicle"
         fill
         priority

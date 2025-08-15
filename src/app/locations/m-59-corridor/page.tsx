@@ -13,7 +13,7 @@ export default function M59CorridorPage() {
       <div className="relative min-h-screen">
         {/* Background image */}
         <Image
-          src="/towtruckpullingtruck.png"
+          src="/towTruckPulling.jpg"
           alt="Towing service along M-59 Corridor in Troy"
           fill
           priority

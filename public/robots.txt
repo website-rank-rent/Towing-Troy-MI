@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.dunwoodytowingservice.com
+Host: https://www.troytowingservice.com
 
 # Sitemaps
-Sitemap: https://www.dunwoodytowingservice.com/sitemap.xml
+Sitemap: https://www.troytowingservice.com/sitemap.xml

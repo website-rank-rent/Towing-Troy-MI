@@ -11,7 +11,7 @@ export default function Hero() {
     >
       {/* Background image */}
       <Image
-        src="/troyTowTruck.avif"
+        src="/troyTowTruck.jpg"
         alt="Tow truck in Troy Michigan providing 24/7 towing and roadside help"
         fill
         priority

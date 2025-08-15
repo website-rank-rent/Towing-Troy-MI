@@ -1,53 +1,72 @@
-import Image from 'next/image';
+// src/app/blog/car-breakdown-troy/page.tsx
 
 export const metadata = {
-  title: 'What To Do When Your Car Breaks Down in Troy, MI',
+  title: "Car Breakdown? What Troy Drivers Should Do | Troy Towing",
   description:
-    'Step-by-step guide for handling car breakdowns in Troy, Michigan. Learn how to stay safe and get quick roadside assistance.',
+    "Stuck on the road in Troy, MI? Learn essential steps to stay safe, get help fast, and handle a car breakdown with confidence from local towing experts.",
 };
 
-export default function CarBreakdownTroyPage() {
+export default function CarBreakdownTroyPost() {
   return (
-    <div className="relative min-h-screen">
-      <Image
-        src="/car-breakdown-troy.jpg"
-        alt="Broken down car on Troy road"
-        fill
-        priority
-        className="object-cover z-0"
-      />
+    <main className="px-6 py-12 max-w-3xl mx-auto text-gray-800">
+      <h1 className="text-4xl font-bold mb-2">
+        How Troy Drivers Can Handle a Car Breakdown Safely
+      </h1>
 
-      <div className="relative z-10 bg-black/30 backdrop-blur-sm min-h-screen flex items-center justify-center px-4 py-20">
-        <main className="max-w-3xl bg-black/80 text-white p-8 rounded-xl shadow-lg">
-          <h1 className="text-4xl font-bold mb-6">Car Breakdowns in Troy? Stay Calm & Act Fast</h1>
+      <p className="text-sm text-gray-500 mb-6">Published on 2025-08-15</p>
 
-          <p className="mb-4 text-lg">
-            Breakdowns can happen anywhere, from M-59 to Big Beaver Road. The first step is always safety: pull over to the shoulder, turn on hazard lights, and stay inside your vehicle if possible.
-          </p>
+      <p className="mb-4">
+        Experiencing a car breakdown in Troy, MI can be stressful — whether it happens on Big Beaver Road, near the Somerset Mall area, or on a quieter residential street. Staying calm and following the right steps can protect you and others on the road.
+      </p>
 
-          <p className="mb-4 text-lg">
-            Next, assess the situation:
-          </p>
+      <h2 className="text-2xl font-semibold mt-8 mb-2">
+        1. Move to a Safe Spot
+      </h2>
+      <p className="mb-4">
+        If your vehicle can still roll, carefully pull over to the shoulder, a parking lot, or a well-lit area. Turn on your hazard lights immediately. Avoid stopping on blind curves or high-traffic lanes.
+      </p>
 
-          <ul className="list-disc pl-6 mb-4 text-lg">
-            <li>Check for obvious issues like flat tires or dead battery</li>
-            <li>Call a trusted local towing or roadside assistance service</li>
-            <li>Avoid attempting unsafe repairs on busy roads</li>
-            <li>Stay visible to other drivers and keep your passengers safe</li>
-          </ul>
+      <h2 className="text-2xl font-semibold mt-8 mb-2">2. Make Yourself Visible</h2>
+      <p className="mb-4">
+        At night or during poor weather, hazard lights alone may not be enough. Use reflective triangles or road flares behind your car to alert approaching drivers and stay inside if possible.
+      </p>
 
-          <p className="mb-4 text-lg">
-            Our Troy towing team is available 24/7 to provide emergency towing, jump starts, lockout service, and more — fast, safe, and professional.
-          </p>
+      <h2 className="text-2xl font-semibold mt-8 mb-2">
+        3. Stay in the Vehicle in Unsafe Areas
+      </h2>
+      <p className="mb-4">
+        On busy streets or highways like I-75 or M-59, staying inside your car with your seatbelt fastened is usually safest. Only exit the vehicle if you are far from moving traffic and in a secure location.
+      </p>
 
-          <p className="text-lg mb-8">
-            Call now for immediate help in Troy, MI:{' '}
-            <a href="tel:+18665307414" className="text-blue-400 font-semibold">
-              (866) 530-7414
-            </a>
-          </p>
-        </main>
-      </div>
-    </div>
+      <h2 className="text-2xl font-semibold mt-8 mb-2">4. Contact a Local Towing Service</h2>
+      <p className="mb-4">
+        Calling a reliable towing company is the quickest and safest way to get back on the road. <strong>Troy Towing</strong> provides 24/7 roadside assistance, including flatbed towing, lockout help, jump starts, and accident recovery.
+      </p>
+
+      <p className="mb-4">
+        <strong>Need immediate help?</strong>{" "}
+        <a href="tel:+18665307414" className="text-blue-600 font-semibold">
+          (866) 530-7414
+        </a>
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-8 mb-2">
+        5. Avoid Accepting Help from Strangers
+      </h2>
+      <p className="mb-4">
+        Waiting for a professional towing company or a trusted friend is safer than accepting rides from unfamiliar people. Scammers or unsafe situations can occur on the roadside.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-8 mb-2">
+        6. Prepare for Future Breakdowns
+      </h2>
+      <p className="mb-4">
+        Keep an emergency kit in your car with water, jumper cables, a flashlight, reflective gear, a phone charger, and basic tools. Save the number of your local towing service in your phone for quick access.
+      </p>
+
+      <p className="mt-8 text-gray-600 italic">
+        Troy Towing — fast, professional, and ready to assist drivers across Troy, Michigan, whenever trouble strikes.
+      </p>
+    </main>
   );
 }

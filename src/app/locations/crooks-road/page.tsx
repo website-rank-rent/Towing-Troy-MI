@@ -13,7 +13,7 @@ export default function CrooksRoadPage() {
       <div className="relative min-h-screen">
         {/* Background image */}
         <Image
-          src="/towtruckpullingtruck.png"
+          src="/towTruckPulling.jpg"
           alt="Tow truck assisting on Crooks Road in Troy"
           fill
           priority

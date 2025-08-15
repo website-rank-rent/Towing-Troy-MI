@@ -13,7 +13,7 @@ export default function ServicesPage() {
       <div className="relative min-h-screen">
         {/* Background Image */}
         <Image
-          src="/iroadsidebmw.avif"
+          src="/winter-car-tow.jpg"
           alt="Tow truck assisting broken down vehicle"
           fill
           priority

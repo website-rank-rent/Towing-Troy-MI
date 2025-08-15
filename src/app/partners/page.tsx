@@ -20,10 +20,10 @@ export default function PartnersPage() {
 
       <div className="mb-6">
         <Image
-          src="/iroadside18wheel.jpg"
+          src="/troy-michigan.jpg"
           alt="Heavy-duty tow truck used for semi-truck towing and recovery in Troy, MI"
-          width={1200}
-          height={800}
+          width={930}
+          height={479}
           className="rounded-lg shadow-md w-full h-auto"
           priority
         />
