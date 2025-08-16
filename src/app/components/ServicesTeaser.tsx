@@ -76,10 +76,10 @@ export default function ServicesTeaser() {
 
         {/* Call to Action */}
         <a
-          href="tel:+11111111111"
+          href="tel:+12484532195"
           className="mt-8 inline-block text-3xl font-bold text-blue-600"
         >
-          (111) 111-1111
+          (248) 453-2195
         </a>
 
         {/* Local SEO microdata */}

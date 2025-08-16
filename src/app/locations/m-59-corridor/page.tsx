@@ -48,14 +48,14 @@ export default function M59CorridorPage() {
 
             <p className="text-lg mb-8">
               Call now for immediate towing along the M-59 corridor:{' '}
-              <a href="tel:+11111111111" className="text-blue-400 font-semibold">
-                (111) 111-1111
+              <a href="tel:+12484532195" className="text-blue-400 font-semibold">
+                (248) 453-2195
               </a>
             </p>
 
             <div className="text-center">
               <a
-                href="tel:+11111111111"
+                href="tel:+12484532195"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold text-lg px-8 py-4 rounded-md"
               >
                 CALL NOW

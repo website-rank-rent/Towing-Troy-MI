@@ -34,8 +34,8 @@ export default function WinterRoadsideTipsTroyPage() {
 
       <p className="text-lg mb-8">
         Stay prepared this winter. Call our local Troy roadside assistance now:{" "}
-        <a href="tel:+11111111111" className="text-blue-600 font-semibold">
-          (111) 111-1111
+        <a href="tel:+12484532195" className="text-blue-600 font-semibold">
+          (248) 453-2195
         </a>
       </p>
     </main>

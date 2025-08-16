@@ -48,15 +48,15 @@ export default function RochesterRoadPage() {
 
             <p className="text-lg mb-8">
               For towing help right now, call{' '}
-              <a href="tel:+11111111111" className="text-blue-400 font-semibold">
-                (111) 111-1111
+              <a href="tel:+12484532195" className="text-blue-400 font-semibold">
+                (248) 453-2195
               </a>{' '}
               — we’re available 24/7 to get you moving again.
             </p>
 
             <div className="text-center">
               <a
-                href="tel:+11111111111"
+                href="tel:+12484532195"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold text-lg px-8 py-4 rounded-md"
               >
                 CALL NOW
