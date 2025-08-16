@@ -48,7 +48,7 @@ export default function AboutPage() {
               Our experienced drivers assist customers all over{" "}
               <strong>Troy, Birmingham, Clawson, Sterling Heights, Madison Heights, Auburn Hills, Warren, Bloomfield Hills</strong>, 
               and nearby towns. If you’ve searched{" "}
-              <strong>"best towing company near me"</strong>, we’re ready to help.
+              <strong>&quot;best towing company near me&quot;</strong>, we’re ready to help.
             </p>
 
             <p className="text-lg mb-8">
