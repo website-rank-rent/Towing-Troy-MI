@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Tow Truck on Big Beaver Road | 24/7 Roadside Help in Troy Michigan',
   description:
     'Need towing on Big Beaver Road? We provide fast, dependable service near Somerset Collection, I-75, and downtown Troy. Call now for roadside assistance.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/locations/big-beaver-road',
+    },
+  };
 
 export default function BigBeaverRoadPage() {
   return (

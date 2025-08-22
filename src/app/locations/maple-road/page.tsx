@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Towing on Maple Road | Fast 24/7 Roadside Help Near Troy, MI',
   description:
     'Stranded on Maple Road? Get fast, reliable towing near Somerset Mall, Crooks Rd, and I-75 in Troy, Michigan. Call now for 24/7 emergency roadside service.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/locations/maple-road',
+    },
+  };
 
 export default function MapleRoadPage() {
   return (

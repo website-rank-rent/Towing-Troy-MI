@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Crooks Road Towing Service | 24/7 Emergency Tow Truck Near Troy, MI',
   description:
     'Stranded on Crooks Road in Troy, Michigan? We provide fast, reliable towing and roadside assistance near Big Beaver Road, Maple Road, and local shopping centers. Call now for help.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/locations/crooks-road',
+    },
+  };
 
 export default function CrooksRoadPage() {
   return (

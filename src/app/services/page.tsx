@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Towing Services in Troy, MI | Emergency Roadside & Flatbed Towing',
   description:
     'Explore all towing services in Troy, Michigan: emergency towing, roadside assistance, flatbed towing, lockouts, and accident recovery. Call now for 24/7 local help.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/services',
+    },
+  };
 
 export default function ServicesPage() {
   return (

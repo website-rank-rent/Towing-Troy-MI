@@ -4,7 +4,10 @@ export const metadata = {
   title: "Car Breakdown? What Troy Drivers Should Do | Troy Towing",
   description:
     "Stuck on the road in Troy, MI? Learn essential steps to stay safe, get help fast, and handle a car breakdown with confidence from local towing experts.",
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/blog/car-breakdown-troy',
+    },
+  };
 
 export default function CarBreakdownTroyPost() {
   return (

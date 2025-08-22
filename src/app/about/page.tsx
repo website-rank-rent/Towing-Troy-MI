@@ -6,7 +6,10 @@ export const metadata = {
   title: 'About Our Towing Company in Troy, Michigan | 24/7 Local & Long-Distance Tow Truck Service',
   description:
     'Discover our trusted towing company serving Troy, Michigan and nearby communities. We offer around-the-clock roadside assistance, vehicle recovery, and reliable towing services.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/about',
+    },
+  };
 
 export default function AboutPage() {
   return (

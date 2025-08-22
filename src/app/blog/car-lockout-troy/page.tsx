@@ -4,7 +4,10 @@ export const metadata = {
   title: "Troy Car Breakdown Guide | Stay Safe & Get Help Fast",
   description:
     "Breakdown in Troy, MI? Learn the essential steps to handle roadside emergencies, stay safe, and get fast help from local towing experts.",
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/blog/car-lockout-troy',
+    },
+  };
 
 export default function CarBreakdownTroyPost() {
   return (

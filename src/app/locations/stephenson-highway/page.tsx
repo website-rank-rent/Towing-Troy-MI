@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Towing on Stephenson Highway | Fast & Reliable Tow Truck Near Troy, MI',
   description:
     'Need a tow truck on Stephenson Highway in Troy, Michigan? We provide 24/7 towing and roadside assistance near Big Beaver Road, Somerset Mall, and nearby neighborhoods.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/locations/stephenson-highway',
+    },
+  };
 
 export default function StephensonHighwayPage() {
   return (

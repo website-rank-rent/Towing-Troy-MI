@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Towing on M-59 Corridor | 24/7 Roadside Assistance in Troy, MI',
   description:
     'Need towing along the M-59 corridor in Troy, Michigan? We provide fast, reliable service near Big Beaver Road, Crooks Road, and Maple Road. Call now for 24/7 emergency help.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/locations/m-59-corridor',
+    },
+  };
 
 export default function M59CorridorPage() {
   return (

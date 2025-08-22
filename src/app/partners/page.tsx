@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Trusted Towing Service in Troy, MI | Heavy-Duty & Semi-Truck Towing",
   description:
     "Learn about our heavy-duty towing capabilities in Troy, Michigan. We handle semi-truck towing, accident recovery, and 24/7 roadside assistance along major corridors and commercial areas.",
+  alternates: {
+      canonical: 'https://troytowingservice.com/partners',
+    },
 };
 
 export default function PartnersPage() {

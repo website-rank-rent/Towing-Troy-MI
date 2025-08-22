@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Towing on Rochester Road | 24/7 Roadside Help in Troy, MI',
   description:
     'Need a tow on Rochester Road? We provide fast, reliable roadside assistance and emergency towing near Troy, Big Beaver Road, and I-75. Call now for immediate help.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/locations/rochester-road',
+    },
+  };
 
 export default function RochesterRoadPage() {
   return (

@@ -4,6 +4,9 @@ import Image from 'next/image';
 export const metadata = {
   title: 'Troy Michigan Towing Blog | Roadside Safety & Vehicle Tips',
   description: 'Helpful articles on car lockouts, towing tips, breakdown safety, and roadside assistance from your local Troy, MI towing experts.',
+  alternates: {
+      canonical: 'https://troytowingservice.com/blog',
+    },
 };
 
 export default function BlogPage() {

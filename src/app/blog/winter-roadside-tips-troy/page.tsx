@@ -4,7 +4,10 @@ export const metadata = {
   title: 'Winter Roadside Safety Tips for Troy, MI Drivers',
   description:
     'Stay safe during winter in Troy, Michigan. Learn essential tips for icy roads, vehicle breakdowns, and emergency towing with our local Troy roadside guide.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/blog/winter-roadside-tips-troy',
+    },
+  };
 
 export default function WinterRoadsideTipsTroyPage() {
   return (

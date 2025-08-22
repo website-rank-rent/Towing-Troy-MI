@@ -4,7 +4,10 @@ export const metadata = {
   title: '5 Essential Towing Tips for Troy, Michigan Drivers',
   description:
     'Learn essential towing and roadside safety tips for Troy drivers. From flatbed towing to emergency procedures, stay prepared on the road.',
-};
+  alternates: {
+      canonical: 'https://troytowingservice.com/blog/towing-tips-troy',
+    },
+  };
 
 export default function TowingTipsTroyPage() {
   return (
