@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "Fast, reliable 24/7 towing in Troy, MI. Emergency roadside assistance, flatbed towing, lockouts and more. Call now for immediate help!",
   alternates: {
-    canonical: "https://troytowing.com",
+    canonical: "https://troytowingservice.com",
   },
 };
 
