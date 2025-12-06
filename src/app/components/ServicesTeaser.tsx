@@ -24,54 +24,78 @@ export default function ServicesTeaser() {
 
         {/* Service Links */}
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-          <div>
-            <h3 className="text-xl font-semibold text-gray-900">
+          <a href="/services/flatbed-towing" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition">
+            <h3 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
               Flatbed Towing Near Me
             </h3>
             <p className="mt-1 text-gray-700 text-base">
               Secure transport for AWD, luxury, and classic cars in Troy and beyond.
             </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-900">
+            <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
+          </a>
+          <a href="/services/local-towing" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition">
+            <h3 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
+              Local Towing Troy, MI
+            </h3>
+            <p className="mt-1 text-gray-700 text-base">
+              Fast, affordable local towing throughout Troy and Metro Detroit area.
+            </p>
+            <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
+          </a>
+          <a href="/services/roadside-assistance" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition">
+            <h3 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
               Roadside Assistance
             </h3>
             <p className="mt-1 text-gray-700 text-base">
               Battery boosts, tire replacements, lockout help, and gas delivery — available 24/7.
             </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-900">
-              Long-Distance Vehicle Transport
+            <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
+          </a>
+          <a href="/services/battery-jump-start" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition">
+            <h3 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
+              Battery Jump Start
+            </h3>
+            <p className="mt-1 text-gray-700 text-base">
+              Fast jump start service to get your dead battery running again quickly.
+            </p>
+            <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
+          </a>
+          <a href="/services/tire-change" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition">
+            <h3 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
+              Flat Tire Change
+            </h3>
+            <p className="mt-1 text-gray-700 text-base">
+              Professional roadside tire change service 24/7 throughout Troy, MI.
+            </p>
+            <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
+          </a>
+          <a href="/services/lockout-service" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition">
+            <h3 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
+              Car Lockout Service
+            </h3>
+            <p className="mt-1 text-gray-700 text-base">
+              Locked your keys in the car? We&apos;ll get you back in quickly and safely.
+            </p>
+            <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
+          </a>
+          <a href="/services/long-distance-towing" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition">
+            <h3 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
+              Long-Distance Towing
             </h3>
             <p className="mt-1 text-gray-700 text-base">
               Affordable transport anywhere in Michigan or to neighboring states.
             </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-900">
+            <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
+          </a>
+          <a href="/services/accident-recovery" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 hover:shadow-md transition">
+            <h3 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
               Accident Recovery
             </h3>
             <p className="mt-1 text-gray-700 text-base">
               Quick, safe removal of vehicles after crashes with minimal risk of damage.
             </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-900">
-              Winch & Recovery Service
-            </h3>
-            <p className="mt-1 text-gray-700 text-base">
-              Retrieve vehicles stuck in snowbanks, mud, or off-road conditions.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-900">
-              Private Property Towing
-            </h3>
-            <p className="mt-1 text-gray-700 text-base">
-              Remove illegally parked vehicles from commercial or residential spaces.
-            </p>
-          </div>
+            <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
+          </a>
         </div>
 
         {/* Call to Action */}
