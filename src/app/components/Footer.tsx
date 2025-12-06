@@ -11,7 +11,6 @@ export default function Footer() {
         <li><a href="/locations/stephenson-highway">Stephenson Highway</a></li>
         <li><a href="/locations/crooks-road">Crooks Road</a></li>
         <li><a href="/locations/m-59-corridor">M-59 Corridor</a></li>
-        <li><a href="/partners" className="text-sm text-gray-500 hover:underline">Business Partners</a></li>
       </ul>
       <p className="text-gray-400 text-xs">
         &copy; {new Date().getFullYear()} Troy Towing & Roadside. All rights reserved.
