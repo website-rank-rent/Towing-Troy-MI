@@ -43,14 +43,14 @@ export default function TireChangePage() {
             </h1>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Got a flat tire on the side of the road in <strong>Troy, MI</strong>? Don't risk changing it yourself in traffic or bad weather.
+              Got a flat tire on the side of the road in <strong>Troy, MI</strong>? Don&apos;t risk changing it yourself in traffic or bad weather.
               <strong> Troy Towing & Roadside</strong> provides fast, professional flat tire change service 24/7 throughout Troy, Michigan and
               surrounding areas.
             </p>
 
             <p className="text-lg mb-6 leading-relaxed">
               Our trained technicians arrive quickly with the tools and expertise to safely replace your flat tire with your spare—whether
-              you're on I-75, Big Beaver Road, or in a parking lot. We handle the dirty, dangerous work so you can get back on the road
+              you&apos;re on I-75, Big Beaver Road, or in a parking lot. We handle the dirty, dangerous work so you can get back on the road
               safely and quickly.
             </p>
 
@@ -64,7 +64,7 @@ export default function TireChangePage() {
               <li><strong>Professional Service:</strong> Our technician safely lifts your vehicle and removes the flat tire</li>
               <li><strong>Spare Installation:</strong> We mount and secure your spare tire properly</li>
               <li><strong>Pressure Check:</strong> We ensure your spare tire is inflated to safe levels</li>
-              <li><strong>Back on the Road:</strong> You're ready to drive to a tire shop for a permanent fix</li>
+              <li><strong>Back on the Road:</strong> You&apos;re ready to drive to a tire shop for a permanent fix</li>
             </ol>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Common Flat Tire Situations</h2>
@@ -74,7 +74,7 @@ export default function TireChangePage() {
             </p>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
-              <li><strong>Nail or Screw Puncture:</strong> Hit debris on Troy's roads causing a slow leak or blowout</li>
+              <li><strong>Nail or Screw Puncture:</strong> Hit debris on Troy&apos;s roads causing a slow leak or blowout</li>
               <li><strong>Pothole Damage:</strong> Michigan potholes causing tire damage and rim bends</li>
               <li><strong>Sidewall Damage:</strong> Curb strikes or sharp objects cutting the tire sidewall</li>
               <li><strong>Tire Blowout:</strong> High-speed blowout requiring immediate roadside assistance</li>
@@ -93,13 +93,13 @@ export default function TireChangePage() {
               <li><strong>All Vehicle Types:</strong> Cars, trucks, SUVs, and vans—even larger vehicles</li>
               <li><strong>Spare Tire Inspection:</strong> We check your spare for proper inflation and condition</li>
               <li><strong>Affordable Pricing:</strong> Transparent rates with no hidden fees</li>
-              <li><strong>Towing Available:</strong> If you have no spare or it's damaged, we'll tow to a tire shop</li>
+              <li><strong>Towing Available:</strong> If you have no spare or it&apos;s damaged, we&apos;ll tow to a tire shop</li>
             </ul>
 
-            <h2 className="text-3xl font-bold mb-4 mt-8">When You Don't Have a Spare Tire</h2>
+            <h2 className="text-3xl font-bold mb-4 mt-8">When You Don&apos;t Have a Spare Tire</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Many modern vehicles come without a spare tire—instead equipped with tire repair kits or run-flat tires. If you can't drive
+              Many modern vehicles come without a spare tire—instead equipped with tire repair kits or run-flat tires. If you can&apos;t drive
               on your damaged tire, we offer these solutions:
             </p>
 
@@ -119,10 +119,10 @@ export default function TireChangePage() {
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
               <li><strong>Pull Over Safely:</strong> Move as far right as possible, away from traffic lanes</li>
               <li><strong>Turn on Hazard Lights:</strong> Alert other drivers to your stopped vehicle</li>
-              <li><strong>Stay Inside:</strong> In high-traffic areas, it's safer to wait inside your vehicle</li>
-              <li><strong>Don't Stand Behind Car:</strong> Never stand directly behind or beside your vehicle in traffic</li>
+              <li><strong>Stay Inside:</strong> In high-traffic areas, it&apos;s safer to wait inside your vehicle</li>
+              <li><strong>Don&apos;t Stand Behind Car:</strong> Never stand directly behind or beside your vehicle in traffic</li>
               <li><strong>Exit from Passenger Side:</strong> If traffic is heavy, exit away from the road</li>
-              <li><strong>Call for Help First:</strong> Don't attempt to change a tire yourself in dangerous conditions</li>
+              <li><strong>Call for Help First:</strong> Don&apos;t attempt to change a tire yourself in dangerous conditions</li>
             </ul>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">What to Do After a Tire Change</h2>
@@ -178,9 +178,9 @@ export default function TireChangePage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-2">What if I don't have a spare tire?</h3>
+                <h3 className="text-xl font-semibold mb-2">What if I don&apos;t have a spare tire?</h3>
                 <p className="text-lg leading-relaxed">
-                  If your vehicle doesn't have a spare or it's damaged, we'll tow you to the nearest tire shop in Troy where you can purchase
+                  If your vehicle doesn&apos;t have a spare or it&apos;s damaged, we&apos;ll tow you to the nearest tire shop in Troy where you can purchase
                   a new tire and get back on the road.
                 </p>
               </div>
@@ -189,14 +189,14 @@ export default function TireChangePage() {
                 <h3 className="text-xl font-semibold mb-2">Can you change a tire on the highway?</h3>
                 <p className="text-lg leading-relaxed">
                   Yes, but safety is critical. We have emergency lights and safety equipment to change tires on highways and busy roads. We
-                  assess each situation and may recommend towing if it's too dangerous.
+                  assess each situation and may recommend towing if it&apos;s too dangerous.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">Do you sell or provide spare tires?</h3>
                 <p className="text-lg leading-relaxed">
-                  We don't sell tires, but we can tow you to a nearby tire shop, dealership, or auto parts store where you can purchase a
+                  We don&apos;t sell tires, but we can tow you to a nearby tire shop, dealership, or auto parts store where you can purchase a
                   replacement tire or spare.
                 </p>
               </div>
@@ -204,7 +204,7 @@ export default function TireChangePage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Can I drive on a donut spare tire long distance?</h3>
                 <p className="text-lg leading-relaxed">
-                  No. Temporary "donut" spare tires are rated for 50-70 miles maximum and speeds up to 50 MPH. Drive directly to a tire shop
+                  No. Temporary &quot;donut&quot; spare tires are rated for 50-70 miles maximum and speeds up to 50 MPH. Drive directly to a tire shop
                   for a permanent replacement.
                 </p>
               </div>
@@ -212,7 +212,7 @@ export default function TireChangePage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">What if my spare tire is also flat?</h3>
                 <p className="text-lg leading-relaxed">
-                  If your spare is flat or damaged, we can't install it safely. In this case, we'll tow your vehicle to a tire shop for repair
+                  If your spare is flat or damaged, we can&apos;t install it safely. In this case, we&apos;ll tow your vehicle to a tire shop for repair
                   or replacement.
                 </p>
               </div>
@@ -220,9 +220,9 @@ export default function TireChangePage() {
 
             {/* Bottom CTA */}
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mt-8">
-              <h2 className="text-2xl font-bold mb-3">Got a Flat Tire? We'll Fix It Fast!</h2>
+              <h2 className="text-2xl font-bold mb-3">Got a Flat Tire? We&apos;ll Fix It Fast!</h2>
               <p className="text-lg mb-4">
-                Don't struggle with a tire change yourself. Call Troy's fastest tire change service now!
+                Don&apos;t struggle with a tire change yourself. Call Troy&apos;s fastest tire change service now!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <a

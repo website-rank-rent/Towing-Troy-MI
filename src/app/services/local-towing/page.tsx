@@ -44,14 +44,14 @@ export default function LocalTowingPage() {
 
             <p className="text-lg mb-4 leading-relaxed">
               When your car breaks down in <strong>Troy, MI</strong>, you need a local towing company that knows the area, responds fast,
-              and gets you back on the road quickly. That's exactly what <strong>Troy Towing & Roadside</strong> delivers—prompt, professional,
+              and gets you back on the road quickly. That&apos;s exactly what <strong>Troy Towing & Roadside</strong> delivers—prompt, professional,
               and affordable local towing services throughout Troy and the greater Metro Detroit area.
             </p>
 
             <p className="text-lg mb-6 leading-relaxed">
-              We're not a national call center directing you to the lowest bidder. We're a locally-focused towing service with deep knowledge
-              of Troy's roads, neighborhoods, and traffic patterns. From Big Beaver Road to Rochester Road, Maple Road to I-75, we know
-              the fastest routes to get to you and get you where you need to go—whether that's home, a trusted repair shop, or a safe location.
+              We&apos;re not a national call center directing you to the lowest bidder. We&apos;re a locally-focused towing service with deep knowledge
+              of Troy&apos;s roads, neighborhoods, and traffic patterns. From Big Beaver Road to Rochester Road, Maple Road to I-75, we know
+              the fastest routes to get to you and get you where you need to go—whether that&apos;s home, a trusted repair shop, or a safe location.
             </p>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Why Choose Local Towing in Troy?</h2>
@@ -61,12 +61,12 @@ export default function LocalTowingPage() {
             </p>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
-              <li><strong>Faster Response Times:</strong> We're already in Troy—no waiting for a truck to come from another city</li>
+              <li><strong>Faster Response Times:</strong> We&apos;re already in Troy—no waiting for a truck to come from another city</li>
               <li><strong>Local Knowledge:</strong> We know shortcuts, traffic patterns, and the best repair shops in the area</li>
               <li><strong>Competitive Pricing:</strong> Local towing distances mean lower costs compared to long-haul services</li>
-              <li><strong>Community Trust:</strong> We've built our reputation serving Troy residents and businesses</li>
-              <li><strong>24/7 Availability:</strong> Day or night, we're here when you need us most</li>
-              <li><strong>Personalized Service:</strong> You'll talk to real people who care about getting you help fast</li>
+              <li><strong>Community Trust:</strong> We&apos;ve built our reputation serving Troy residents and businesses</li>
+              <li><strong>24/7 Availability:</strong> Day or night, we&apos;re here when you need us most</li>
+              <li><strong>Personalized Service:</strong> You&apos;ll talk to real people who care about getting you help fast</li>
             </ul>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Areas We Serve</h2>
@@ -100,13 +100,13 @@ export default function LocalTowingPage() {
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
               <li><strong>Vehicle Breakdowns:</strong> Engine failure, transmission problems, or electrical issues</li>
-              <li><strong>Dead Battery:</strong> When a jump start isn't enough, we tow you to a mechanic</li>
-              <li><strong>Flat Tire:</strong> If you don't have a spare or the tire can't be changed on-site</li>
+              <li><strong>Dead Battery:</strong> When a jump start isn&apos;t enough, we tow you to a mechanic</li>
+              <li><strong>Flat Tire:</strong> If you don&apos;t have a spare or the tire can&apos;t be changed on-site</li>
               <li><strong>Accident Towing:</strong> Safe removal after a collision on Troy roads</li>
-              <li><strong>Locked Out:</strong> If you're locked out and need transport to get a new key made</li>
+              <li><strong>Locked Out:</strong> If you&apos;re locked out and need transport to get a new key made</li>
               <li><strong>Overheating Engine:</strong> Towing to a repair shop before further damage occurs</li>
-              <li><strong>Check Engine Light:</strong> When it's unsafe to drive, we tow you to a diagnostic center</li>
-              <li><strong>Parking Lot Breakdown:</strong> Stuck at the mall, office, or restaurant? We'll get you out</li>
+              <li><strong>Check Engine Light:</strong> When it&apos;s unsafe to drive, we tow you to a diagnostic center</li>
+              <li><strong>Parking Lot Breakdown:</strong> Stuck at the mall, office, or restaurant? We&apos;ll get you out</li>
             </ul>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Our Local Towing Process</h2>
@@ -123,7 +123,7 @@ export default function LocalTowingPage() {
             <h2 className="text-3xl font-bold mb-4 mt-8">What Makes Us Different</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Not all towing companies in Troy, MI are created equal. Here's what sets <strong>Troy Towing & Roadside</strong> apart:
+              Not all towing companies in Troy, MI are created equal. Here&apos;s what sets <strong>Troy Towing & Roadside</strong> apart:
             </p>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
@@ -131,7 +131,7 @@ export default function LocalTowingPage() {
               <li><strong>Modern Equipment:</strong> Well-maintained trucks with flatbeds, wheel-lifts, and dollies</li>
               <li><strong>Trained Professionals:</strong> Certified drivers who treat your vehicle with care</li>
               <li><strong>Damage-Free Towing:</strong> We use the right equipment for your specific vehicle type</li>
-              <li><strong>Customer-First Approach:</strong> Friendly, respectful service when you're already having a bad day</li>
+              <li><strong>Customer-First Approach:</strong> Friendly, respectful service when you&apos;re already having a bad day</li>
             </ul>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Frequently Asked Questions</h2>
@@ -156,7 +156,7 @@ export default function LocalTowingPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Do you offer 24/7 local towing?</h3>
                 <p className="text-lg leading-relaxed">
-                  Yes! We provide 24/7 emergency towing services every day of the year, including holidays. Breakdowns don't follow a
+                  Yes! We provide 24/7 emergency towing services every day of the year, including holidays. Breakdowns don&apos;t follow a
                   schedule, and neither do we.
                 </p>
               </div>
@@ -164,7 +164,7 @@ export default function LocalTowingPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Can I choose which repair shop you tow my car to?</h3>
                 <p className="text-lg leading-relaxed">
-                  Absolutely. You have the right to choose your preferred repair facility. We'll tow your vehicle to any location you
+                  Absolutely. You have the right to choose your preferred repair facility. We&apos;ll tow your vehicle to any location you
                   specify in the Troy area.
                 </p>
               </div>
@@ -181,7 +181,7 @@ export default function LocalTowingPage() {
                 <h3 className="text-xl font-semibold mb-2">Will towing damage my car?</h3>
                 <p className="text-lg leading-relaxed">
                   When done properly with professional equipment, towing will not damage your vehicle. We use the appropriate towing method
-                  (flatbed, wheel-lift, or dolly) based on your vehicle's drivetrain to ensure safe transport.
+                  (flatbed, wheel-lift, or dolly) based on your vehicle&apos;s drivetrain to ensure safe transport.
                 </p>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function LocalTowingPage() {
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mt-8">
               <h2 className="text-2xl font-bold mb-3">Need Local Towing in Troy Right Now?</h2>
               <p className="text-lg mb-4">
-                Don't wait on the side of the road. Call Troy's fastest local towing service now!
+                Don&apos;t wait on the side of the road. Call Troy&apos;s fastest local towing service now!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <a

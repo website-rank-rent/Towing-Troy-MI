@@ -99,7 +99,7 @@ export default function AccidentRecoveryPage() {
               <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
                 <h3 className="text-xl font-bold mb-2">Secure Vehicle Storage</h3>
                 <p className="text-lg">
-                  If your vehicle can't go directly to a repair shop, we offer secure storage options while you work with your insurance
+                  If your vehicle can&apos;t go directly to a repair shop, we offer secure storage options while you work with your insurance
                   company and arrange repairs.
                 </p>
               </div>
@@ -108,7 +108,7 @@ export default function AccidentRecoveryPage() {
             <h2 className="text-3xl font-bold mb-4 mt-8">What to Do After an Accident in Troy, MI</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
-              If you've been in a collision, follow these important steps:
+              If you&apos;ve been in a collision, follow these important steps:
             </p>
 
             <ol className="list-decimal pl-6 mb-6 text-lg space-y-2">
@@ -116,7 +116,7 @@ export default function AccidentRecoveryPage() {
               <li><strong>Move to Safety:</strong> If possible, move vehicles out of traffic to prevent additional collisions</li>
               <li><strong>Call Police:</strong> Report the accident and wait for officers to arrive and file a report</li>
               <li><strong>Document the Scene:</strong> Take photos of all vehicles, damage, license plates, and road conditions</li>
-              <li><strong>Exchange Information:</strong> Get names, phone numbers, insurance info, and driver's license numbers</li>
+              <li><strong>Exchange Information:</strong> Get names, phone numbers, insurance info, and driver&apos;s license numbers</li>
               <li><strong>Call Your Insurance:</strong> Report the accident to your insurance company as soon as possible</li>
               <li><strong>Arrange Towing:</strong> Call Troy Towing at (248) 453-2195 for professional accident recovery</li>
             </ol>
@@ -124,20 +124,20 @@ export default function AccidentRecoveryPage() {
             <h2 className="text-3xl font-bold mb-4 mt-8">Why Choose Our Accident Recovery Service?</h2>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
-              <li><strong>24/7 Emergency Response:</strong> Accidents happen any time—we're always available</li>
+              <li><strong>24/7 Emergency Response:</strong> Accidents happen any time—we&apos;re always available</li>
               <li><strong>Fast Arrival:</strong> Quick response to minimize road blockage and safety hazards</li>
               <li><strong>Experienced Team:</strong> Trained in safe accident vehicle recovery and damage prevention</li>
               <li><strong>All Collision Types:</strong> Minor fender benders to major multi-vehicle accidents</li>
               <li><strong>Flatbed & Wheel-Lift Trucks:</strong> Appropriate equipment for any damage level</li>
               <li><strong>Insurance Friendly:</strong> We work with all major insurance companies and provide documentation</li>
-              <li><strong>Respectful & Professional:</strong> We understand you're dealing with a stressful situation</li>
+              <li><strong>Respectful & Professional:</strong> We understand you&apos;re dealing with a stressful situation</li>
               <li><strong>Fully Licensed & Insured:</strong> Proper coverage protects you and your vehicle</li>
             </ul>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Common Accident Scenarios We Handle</h2>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
-              <li><strong>Rear-End Collisions:</strong> Common on Troy's busy roads like Big Beaver and I-75</li>
+              <li><strong>Rear-End Collisions:</strong> Common on Troy&apos;s busy roads like Big Beaver and I-75</li>
               <li><strong>T-Bone Accidents:</strong> Intersection collisions causing side-impact damage</li>
               <li><strong>Head-On Collisions:</strong> Serious frontal impacts requiring immediate towing</li>
               <li><strong>Single-Vehicle Accidents:</strong> Hitting poles, trees, or guardrails</li>
@@ -159,7 +159,7 @@ export default function AccidentRecoveryPage() {
               <li><strong>Dealership Service Center:</strong> For newer vehicles under warranty</li>
               <li><strong>Your Home or Driveway:</strong> If you want to assess damage before choosing repairs</li>
               <li><strong>Secure Storage Facility:</strong> Temporary storage while you work with insurance</li>
-              <li><strong>Salvage Yard:</strong> If the vehicle is totaled and won't be repaired</li>
+              <li><strong>Salvage Yard:</strong> If the vehicle is totaled and won&apos;t be repaired</li>
             </ul>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Working with Insurance Companies</h2>
@@ -209,7 +209,7 @@ export default function AccidentRecoveryPage() {
                 <h3 className="text-xl font-semibold mb-2">Do I have to use the tow company the police call?</h3>
                 <p className="text-lg leading-relaxed">
                   No. You have the legal right to choose your own towing company. If police call a rotation tow company and you prefer us,
-                  let the officer know you've already arranged your own service.
+                  let the officer know you&apos;ve already arranged your own service.
                 </p>
               </div>
 
@@ -224,7 +224,7 @@ export default function AccidentRecoveryPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Can I choose which repair shop you tow my car to?</h3>
                 <p className="text-lg leading-relaxed">
-                  Absolutely. Michigan law gives you the right to choose your own repair facility. We'll tow your vehicle wherever you direct
+                  Absolutely. Michigan law gives you the right to choose your own repair facility. We&apos;ll tow your vehicle wherever you direct
                   us—your preferred shop, a dealership, or even your home.
                 </p>
               </div>
@@ -238,9 +238,9 @@ export default function AccidentRecoveryPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-2">What if my car can't be driven at all?</h3>
+                <h3 className="text-xl font-semibold mb-2">What if my car can&apos;t be driven at all?</h3>
                 <p className="text-lg leading-relaxed">
-                  That's what we're here for. Our flatbed trucks can safely transport vehicles with any level of damage—missing wheels, frame
+                  That&apos;s what we&apos;re here for. Our flatbed trucks can safely transport vehicles with any level of damage—missing wheels, frame
                   damage, or complete immobilization.
                 </p>
               </div>
@@ -258,7 +258,7 @@ export default function AccidentRecoveryPage() {
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mt-8">
               <h2 className="text-2xl font-bold mb-3">Need Accident Recovery in Troy Now?</h2>
               <p className="text-lg mb-4">
-                We're here to help during this stressful time. Call for fast, professional accident towing service!
+                We&apos;re here to help during this stressful time. Call for fast, professional accident towing service!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <a

@@ -41,7 +41,7 @@ export default function ServicesPage() {
               <li><a href="/services/roadside-assistance" className="text-blue-600 hover:underline font-semibold">24/7 Roadside Assistance</a> – Jump starts, tire changes, lockouts, and fuel delivery</li>
               <li><a href="/services/battery-jump-start" className="text-blue-600 hover:underline font-semibold">Battery Jump Start</a> – Get your dead battery running again quickly</li>
               <li><a href="/services/tire-change" className="text-blue-600 hover:underline font-semibold">Flat Tire Change</a> – Professional roadside tire service 24/7</li>
-              <li><a href="/services/lockout-service" className="text-blue-600 hover:underline font-semibold">Car Lockout Service</a> – Locked your keys in the car? We'll help</li>
+              <li><a href="/services/lockout-service" className="text-blue-600 hover:underline font-semibold">Car Lockout Service</a> – Locked your keys in the car? We&apos;ll help</li>
               <li><a href="/services/accident-recovery" className="text-blue-600 hover:underline font-semibold">Accident Recovery</a> – Safe vehicle removal after collisions</li>
               <li><a href="/services/long-distance-towing" className="text-blue-600 hover:underline font-semibold">Long-Distance Towing</a> – Interstate vehicle transport to neighboring states</li>
             </ul>

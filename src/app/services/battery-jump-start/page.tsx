@@ -43,9 +43,9 @@ export default function BatteryJumpStartPage() {
             </h1>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Dead battery? Don't panic. <strong>Troy Towing & Roadside</strong> provides fast, reliable battery jump start service
+              Dead battery? Don&apos;t panic. <strong>Troy Towing & Roadside</strong> provides fast, reliable battery jump start service
               throughout <strong>Troy, MI</strong> and surrounding areas. Whether you left your lights on overnight, your battery is old
-              and weak, or you're dealing with extreme Michigan weather, our technicians will get your vehicle started and back on the road.
+              and weak, or you&apos;re dealing with extreme Michigan weather, our technicians will get your vehicle started and back on the road.
             </p>
 
             <p className="text-lg mb-6 leading-relaxed">
@@ -63,7 +63,7 @@ export default function BatteryJumpStartPage() {
               <li><strong>Battery Assessment:</strong> Our technician checks your battery terminals and connections</li>
               <li><strong>Professional Jump Start:</strong> We safely jump-start your vehicle using commercial-grade equipment</li>
               <li><strong>Testing & Advice:</strong> We test the battery and alternator, then advise if replacement is needed</li>
-              <li><strong>Get Back on the Road:</strong> You're ready to drive to a repair shop or continue your day</li>
+              <li><strong>Get Back on the Road:</strong> You&apos;re ready to drive to a repair shop or continue your day</li>
             </ol>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Common Causes of Dead Batteries</h2>
@@ -79,35 +79,35 @@ export default function BatteryJumpStartPage() {
               <li><strong>Corroded Terminals:</strong> Buildup on battery posts prevents proper electrical connection</li>
               <li><strong>Parasitic Drain:</strong> Faulty electronics slowly draining power when the car is off</li>
               <li><strong>Short Trips:</strong> Not driving long enough for the alternator to recharge the battery</li>
-              <li><strong>Faulty Alternator:</strong> The charging system isn't replenishing the battery while driving</li>
+              <li><strong>Faulty Alternator:</strong> The charging system isn&apos;t replenishing the battery while driving</li>
               <li><strong>Extreme Heat:</strong> Summer heat can evaporate battery fluid and damage internal components</li>
             </ul>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Why Choose Our Jump Start Service?</h2>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
-              <li><strong>24/7 Availability:</strong> Dead batteries don't wait for business hours—neither do we</li>
+              <li><strong>24/7 Availability:</strong> Dead batteries don&apos;t wait for business hours—neither do we</li>
               <li><strong>Rapid Response:</strong> Most Troy locations serviced within 30 minutes</li>
               <li><strong>Professional Equipment:</strong> Commercial-grade jumper cables and portable battery packs</li>
               <li><strong>Experienced Technicians:</strong> Trained to safely jump-start all vehicle types</li>
               <li><strong>Battery Testing:</strong> We can test your battery and alternator on the spot</li>
               <li><strong>Affordable Rates:</strong> Competitive pricing with transparent, upfront quotes</li>
-              <li><strong>No Damage Risk:</strong> Proper jump-start procedures protect your vehicle's electrical system</li>
+              <li><strong>No Damage Risk:</strong> Proper jump-start procedures protect your vehicle&apos;s electrical system</li>
             </ul>
 
-            <h2 className="text-3xl font-bold mb-4 mt-8">When a Jump Start Isn't Enough</h2>
+            <h2 className="text-3xl font-bold mb-4 mt-8">When a Jump Start Isn&apos;t Enough</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
               Sometimes a dead battery is a symptom of a bigger problem. If any of these apply, you may need a tow to a repair shop:
             </p>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
-              <li>Battery won't hold a charge after jump start</li>
+              <li>Battery won&apos;t hold a charge after jump start</li>
               <li>Vehicle dies again shortly after being jump-started</li>
               <li>Battery is visibly swollen, cracked, or leaking</li>
-              <li>Alternator isn't charging the battery while driving</li>
+              <li>Alternator isn&apos;t charging the battery while driving</li>
               <li>Electrical system shows warning lights or malfunctions</li>
-              <li>Battery terminals are severely corroded and can't make proper contact</li>
+              <li>Battery terminals are severely corroded and can&apos;t make proper contact</li>
             </ul>
 
             <p className="text-lg mb-6 leading-relaxed">
@@ -156,12 +156,12 @@ export default function BatteryJumpStartPage() {
                 <h3 className="text-xl font-semibold mb-2">Can you jump-start my car in the cold Michigan winter?</h3>
                 <p className="text-lg leading-relaxed">
                   Absolutely! We operate year-round in all weather conditions. Cold weather is one of the most common causes of dead batteries,
-                  and we're equipped to handle winter jump starts.
+                  and we&apos;re equipped to handle winter jump starts.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-2">Will a jump start damage my car's electronics?</h3>
+                <h3 className="text-xl font-semibold mb-2">Will a jump start damage my car&apos;s electronics?</h3>
                 <p className="text-lg leading-relaxed">
                   Not when done properly by professionals. Our technicians use correct procedures to prevent electrical system damage, including
                   proper cable placement and voltage verification.
@@ -197,7 +197,7 @@ export default function BatteryJumpStartPage() {
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mt-8">
               <h2 className="text-2xl font-bold mb-3">Need a Jump Start Right Now?</h2>
               <p className="text-lg mb-4">
-                Don't wait with a dead battery. Call Troy's fastest jump start service and get back on the road!
+                Don&apos;t wait with a dead battery. Call Troy&apos;s fastest jump start service and get back on the road!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <a

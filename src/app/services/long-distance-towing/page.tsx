@@ -43,7 +43,7 @@ export default function LongDistanceTowingPage() {
             </h1>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Need to transport your vehicle from <strong>Troy, MI</strong> to another city or state? Whether you're relocating, buying a
+              Need to transport your vehicle from <strong>Troy, MI</strong> to another city or state? Whether you&apos;re relocating, buying a
               car out of state, or need to move a vehicle for repairs, <strong>Troy Towing & Roadside</strong> provides reliable,
               affordable long-distance towing services across Michigan and to neighboring states.
             </p>
@@ -51,7 +51,7 @@ export default function LongDistanceTowingPage() {
             <p className="text-lg mb-6 leading-relaxed">
               Unlike short local tows, long-distance vehicle transport requires specialized equipment, careful planning, and experienced
               drivers who understand interstate regulations. Our flatbed trucks and professional team ensure your vehicle arrives safely,
-              on time, and without damage—whether you're going 100 miles or 1,000 miles from Troy, Michigan.
+              on time, and without damage—whether you&apos;re going 100 miles or 1,000 miles from Troy, Michigan.
             </p>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Why Choose Our Long-Distance Towing Service?</h2>
@@ -105,7 +105,7 @@ export default function LongDistanceTowingPage() {
               <li><strong>Request a Quote:</strong> Call (248) 453-2195 with your pickup/delivery locations and vehicle details</li>
               <li><strong>Get Upfront Pricing:</strong> We provide a clear, itemized quote with no hidden fees</li>
               <li><strong>Schedule Pickup:</strong> Choose a convenient date and time for pickup in Troy</li>
-              <li><strong>Vehicle Inspection:</strong> We document your vehicle's condition before loading</li>
+              <li><strong>Vehicle Inspection:</strong> We document your vehicle&apos;s condition before loading</li>
               <li><strong>Secure Transport:</strong> Your vehicle is safely loaded onto our flatbed truck</li>
               <li><strong>Safe Journey:</strong> Professional drivers transport your vehicle using major highways and safe routes</li>
               <li><strong>Delivery & Sign-Off:</strong> We deliver to your destination and you inspect upon arrival</li>
@@ -169,7 +169,7 @@ export default function LongDistanceTowingPage() {
                 <h3 className="text-xl font-semibold mb-2">Do I need to be present for pickup and delivery?</h3>
                 <p className="text-lg leading-relaxed">
                   Yes, or you can designate an authorized representative. We require a signature at both pickup and delivery to document
-                  the vehicle's condition.
+                  the vehicle&apos;s condition.
                 </p>
               </div>
 

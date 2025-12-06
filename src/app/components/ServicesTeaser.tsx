@@ -74,7 +74,7 @@ export default function ServicesTeaser() {
               Car Lockout Service
             </h3>
             <p className="mt-1 text-gray-700 text-base">
-              Locked your keys in the car? We'll get you back in quickly and safely.
+              Locked your keys in the car? We&apos;ll get you back in quickly and safely.
             </p>
             <span className="text-blue-600 font-medium mt-2 inline-block">Learn More →</span>
           </a>

@@ -22,14 +22,14 @@ export default function Home() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               When your vehicle breaks down or you need emergency roadside assistance in <strong>Troy, Michigan</strong>,
               you need a towing company you can trust. Troy Towing & Roadside provides fast, reliable, and affordable 24/7
-              towing and roadside services throughout Troy and the greater Metro Detroit area. Whether you're stuck on
+              towing and roadside services throughout Troy and the greater Metro Detroit area. Whether you&apos;re stuck on
               I-75, stranded in a parking lot on Big Beaver Road, or dealing with a breakdown on Rochester Road, our
               experienced team is ready to help.
             </p>
 
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               We specialize in emergency towing, flatbed transport, roadside assistance, accident recovery, and more.
-              Our locally-based drivers know Troy's roads inside and out, ensuring the fastest possible response times
+              Our locally-based drivers know Troy&apos;s roads inside and out, ensuring the fastest possible response times
               when you need help most. From simple battery jump starts to complex accident recovery, we handle every
               situation with professionalism and care.
             </p>
@@ -43,7 +43,7 @@ export default function Home() {
                 <div>
                   <h4 className="text-xl font-semibold text-blue-600 mb-2">✓ 24/7 Availability</h4>
                   <p className="text-gray-700">
-                    Breakdowns don't follow a schedule. We're available around the clock, every day of the year,
+                    Breakdowns don&apos;t follow a schedule. We&apos;re available around the clock, every day of the year,
                     including holidays and weekends.
                   </p>
                 </div>
@@ -83,7 +83,7 @@ export default function Home() {
                 <div>
                   <h4 className="text-xl font-semibold text-blue-600 mb-2">✓ Local Expertise</h4>
                   <p className="text-gray-700">
-                    We know Troy's roads, traffic patterns, and best routes. Our local knowledge means faster service
+                    We know Troy&apos;s roads, traffic patterns, and best routes. Our local knowledge means faster service
                     and better outcomes.
                   </p>
                 </div>

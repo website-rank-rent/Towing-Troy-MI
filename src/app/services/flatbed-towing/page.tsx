@@ -58,7 +58,7 @@ export default function FlatbedTowingPage() {
             <h2 className="text-3xl font-bold mb-4 mt-8">Why Choose Flatbed Towing?</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Flatbed towing offers unmatched protection for your vehicle. Here's why drivers in Troy, MI trust our flatbed service:
+              Flatbed towing offers unmatched protection for your vehicle. Here&apos;s why drivers in Troy, MI trust our flatbed service:
             </p>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
@@ -73,7 +73,7 @@ export default function FlatbedTowingPage() {
             <h2 className="text-3xl font-bold mb-4 mt-8">Our Flatbed Towing Process</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
-              When you call <strong>Troy Towing & Roadside</strong> for flatbed service, here's what to expect:
+              When you call <strong>Troy Towing & Roadside</strong> for flatbed service, here&apos;s what to expect:
             </p>
 
             <ol className="list-decimal pl-6 mb-6 text-lg space-y-2">
@@ -87,24 +87,24 @@ export default function FlatbedTowingPage() {
             <h2 className="text-3xl font-bold mb-4 mt-8">When You Need Flatbed Towing in Troy, MI</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Flatbed towing isn't just for luxury cars. Here are common situations where Troy residents call us for flatbed service:
+              Flatbed towing isn&apos;t just for luxury cars. Here are common situations where Troy residents call us for flatbed service:
             </p>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
-              <li>Vehicle won't start and needs transport to a mechanic</li>
+              <li>Vehicle won&apos;t start and needs transport to a mechanic</li>
               <li>Accident or collision with severe damage</li>
               <li>Purchasing a classic or vintage car and need safe delivery</li>
               <li>Moving a vehicle from Troy to another city or state</li>
               <li>Repossession or impound lot retrieval</li>
               <li>Transporting an electric vehicle (EV) with specific towing requirements</li>
-              <li>Low-clearance sports cars that can't be towed with a wheel-lift</li>
+              <li>Low-clearance sports cars that can&apos;t be towed with a wheel-lift</li>
             </ul>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">24/7 Emergency Flatbed Towing</h2>
 
             <p className="text-lg mb-6 leading-relaxed">
-              Breakdowns and accidents don't follow a schedule—that's why we offer <strong>24/7 emergency flatbed towing</strong> in Troy, Michigan.
-              Whether it's 3 AM on a Sunday or during rush hour on Big Beaver Road, our team is ready to respond. We serve all major roads
+              Breakdowns and accidents don&apos;t follow a schedule—that&apos;s why we offer <strong>24/7 emergency flatbed towing</strong> in Troy, Michigan.
+              Whether it&apos;s 3 AM on a Sunday or during rush hour on Big Beaver Road, our team is ready to respond. We serve all major roads
               and highways including I-75, M-59, Rochester Road, Crooks Road, and Maple Road.
             </p>
 
@@ -164,7 +164,7 @@ export default function FlatbedTowingPage() {
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mt-8">
               <h2 className="text-2xl font-bold mb-3">Need Flatbed Towing in Troy Right Now?</h2>
               <p className="text-lg mb-4">
-                Don't risk further damage to your vehicle. Call Troy's most trusted flatbed towing service now!
+                Don&apos;t risk further damage to your vehicle. Call Troy&apos;s most trusted flatbed towing service now!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <a

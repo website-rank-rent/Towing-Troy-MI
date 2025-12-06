@@ -43,7 +43,7 @@ export default function RoadsideAssistancePage() {
             </h1>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Car trouble doesn't follow a schedule—and neither does <strong>Troy Towing & Roadside</strong>. Whether you're stranded in a
+              Car trouble doesn&apos;t follow a schedule—and neither does <strong>Troy Towing & Roadside</strong>. Whether you&apos;re stranded in a
               parking lot in <strong>Troy, MI</strong>, stuck on I-75, or dealing with a dead battery on Big Beaver Road, our 24/7 roadside
               assistance service gets you back on the road quickly and affordably.
             </p>
@@ -64,7 +64,7 @@ export default function RoadsideAssistancePage() {
               <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
                 <h3 className="text-xl font-bold mb-2">Battery Jump Start</h3>
                 <p className="text-lg">
-                  Dead battery? We'll jump-start your vehicle on the spot so you can get to a repair shop or auto parts store for a
+                  Dead battery? We&apos;ll jump-start your vehicle on the spot so you can get to a repair shop or auto parts store for a
                   replacement. Available 24/7 across Troy, MI.
                 </p>
               </div>
@@ -73,7 +73,7 @@ export default function RoadsideAssistancePage() {
                 <h3 className="text-xl font-bold mb-2">Flat Tire Change</h3>
                 <p className="text-lg">
                   Ran over a nail or hit a pothole? Our technicians will replace your flat tire with your spare so you can continue your
-                  journey safely. If the spare is also flat, we'll tow you to a tire shop.
+                  journey safely. If the spare is also flat, we&apos;ll tow you to a tire shop.
                 </p>
               </div>
 
@@ -88,7 +88,7 @@ export default function RoadsideAssistancePage() {
               <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
                 <h3 className="text-xl font-bold mb-2">Fuel Delivery</h3>
                 <p className="text-lg">
-                  Ran out of gas on the highway or in a Troy neighborhood? We'll bring enough fuel to get you to the nearest gas station.
+                  Ran out of gas on the highway or in a Troy neighborhood? We&apos;ll bring enough fuel to get you to the nearest gas station.
                   No need to walk in dangerous traffic.
                 </p>
               </div>
@@ -113,11 +113,11 @@ export default function RoadsideAssistancePage() {
             <h2 className="text-3xl font-bold mb-4 mt-8">Why Choose Our Roadside Assistance in Troy?</h2>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
-              <li><strong>24/7 Availability:</strong> Day or night, weekends and holidays—we're always ready</li>
+              <li><strong>24/7 Availability:</strong> Day or night, weekends and holidays—we&apos;re always ready</li>
               <li><strong>Fast Response:</strong> Most roadside calls in Troy see arrival within 30 minutes</li>
               <li><strong>Professional Technicians:</strong> Trained, licensed, and equipped to handle any roadside emergency</li>
               <li><strong>Affordable Rates:</strong> Competitive pricing with no hidden fees or surprise charges</li>
-              <li><strong>No Membership Required:</strong> Anyone can call—you don't need AAA or a roadside plan (though we work with them too!)</li>
+              <li><strong>No Membership Required:</strong> Anyone can call—you don&apos;t need AAA or a roadside plan (though we work with them too!)</li>
               <li><strong>Fully Insured:</strong> Licensed and insured for your protection and peace of mind</li>
             </ul>
 
@@ -189,15 +189,15 @@ export default function RoadsideAssistancePage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-2">What if you can't fix my problem on-site?</h3>
+                <h3 className="text-xl font-semibold mb-2">What if you can&apos;t fix my problem on-site?</h3>
                 <p className="text-lg leading-relaxed">
-                  If we can't resolve the issue roadside, we'll tow your vehicle to a repair shop, dealership, or your home. Our trucks are
+                  If we can&apos;t resolve the issue roadside, we&apos;ll tow your vehicle to a repair shop, dealership, or your home. Our trucks are
                   equipped for both roadside service and towing.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-2">Can you help if I'm stuck in snow or mud?</h3>
+                <h3 className="text-xl font-semibold mb-2">Can you help if I&apos;m stuck in snow or mud?</h3>
                 <p className="text-lg leading-relaxed">
                   Yes! Our winch-out service can safely extract vehicles stuck in snow, mud, ditches, or off-road situations. We have the
                   equipment and experience to handle Michigan winters.
@@ -215,9 +215,9 @@ export default function RoadsideAssistancePage() {
 
             {/* Bottom CTA */}
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mt-8">
-              <h2 className="text-2xl font-bold mb-3">Stuck on the Road? We're On Our Way!</h2>
+              <h2 className="text-2xl font-bold mb-3">Stuck on the Road? We&apos;re On Our Way!</h2>
               <p className="text-lg mb-4">
-                Don't wait in an unsafe location. Call Troy's fastest roadside assistance service now!
+                Don&apos;t wait in an unsafe location. Call Troy&apos;s fastest roadside assistance service now!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <a

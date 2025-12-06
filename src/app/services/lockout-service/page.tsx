@@ -43,14 +43,14 @@ export default function LockoutServicePage() {
             </h1>
 
             <p className="text-lg mb-4 leading-relaxed">
-              Locked your keys in the car? It happens to everyone. Whether you're at home, work, the mall, or stranded in a parking lot in
+              Locked your keys in the car? It happens to everyone. Whether you&apos;re at home, work, the mall, or stranded in a parking lot in
               <strong> Troy, MI</strong>, <strong>Troy Towing & Roadside</strong> provides fast, professional car lockout service to get you
               back in your vehicle quickly and safely.
             </p>
 
             <p className="text-lg mb-6 leading-relaxed">
               Our trained technicians use specialized tools to unlock your car door without damaging the paint, locks, or windows. We serve
-              Troy, Michigan and all surrounding areas 24 hours a day, 7 days a week—because lockouts don't wait for convenient times.
+              Troy, Michigan and all surrounding areas 24 hours a day, 7 days a week—because lockouts don&apos;t wait for convenient times.
             </p>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">How Our Lockout Service Works</h2>
@@ -62,7 +62,7 @@ export default function LockoutServicePage() {
               <li><strong>Quick Arrival:</strong> Most lockout calls in Troy see arrival within 20-30 minutes</li>
               <li><strong>Safe Entry:</strong> Our technician uses professional lockout tools to unlock your door</li>
               <li><strong>No Damage:</strong> We access your vehicle without breaking windows or damaging locks</li>
-              <li><strong>You're Back In:</strong> Retrieve your keys and get back on with your day</li>
+              <li><strong>You&apos;re Back In:</strong> Retrieve your keys and get back on with your day</li>
             </ol>
 
             <h2 className="text-3xl font-bold mb-4 mt-8">Common Lockout Situations We Handle</h2>
@@ -75,7 +75,7 @@ export default function LockoutServicePage() {
               <li><strong>Keys Locked in Car:</strong> Left keys inside and doors locked automatically</li>
               <li><strong>Keys Locked in Trunk:</strong> Trunk closed with keys inside and no spare available</li>
               <li><strong>Broken Key in Lock:</strong> Key snapped off inside the door lock or ignition</li>
-              <li><strong>Dead Key Fob Battery:</strong> Electronic key fob died and manual lock isn't working</li>
+              <li><strong>Dead Key Fob Battery:</strong> Electronic key fob died and manual lock isn&apos;t working</li>
               <li><strong>Child or Pet Locked Inside:</strong> Emergency situations requiring immediate access</li>
               <li><strong>Frozen Locks:</strong> Michigan winter weather causing locks to freeze shut</li>
               <li><strong>Lost Keys:</strong> Need entry to retrieve spare key or call a locksmith</li>
@@ -115,7 +115,7 @@ export default function LockoutServicePage() {
             <h2 className="text-3xl font-bold mb-4 mt-8">Prevention Tips: Avoid Future Lockouts</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
-              While we're always here to help, here are tips to prevent future lockouts in <strong>Troy, MI</strong>:
+              While we&apos;re always here to help, here are tips to prevent future lockouts in <strong>Troy, MI</strong>:
             </p>
 
             <ul className="list-disc pl-6 mb-6 text-lg space-y-2">
@@ -183,7 +183,7 @@ export default function LockoutServicePage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">What if I lost my keys completely?</h3>
                 <p className="text-lg leading-relaxed">
-                  If you've lost your keys, we can unlock your car so you can check for a spare. If no spare exists, you'll need a locksmith
+                  If you&apos;ve lost your keys, we can unlock your car so you can check for a spare. If no spare exists, you&apos;ll need a locksmith
                   or dealership to create a new key. We can tow your vehicle there if needed.
                 </p>
               </div>
@@ -207,9 +207,9 @@ export default function LockoutServicePage() {
 
             {/* Bottom CTA */}
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mt-8">
-              <h2 className="text-2xl font-bold mb-3">Locked Out? We'll Get You Back In Fast!</h2>
+              <h2 className="text-2xl font-bold mb-3">Locked Out? We&apos;ll Get You Back In Fast!</h2>
               <p className="text-lg mb-4">
-                Don't stress about being locked out. Call Troy's trusted lockout service now!
+                Don&apos;t stress about being locked out. Call Troy&apos;s trusted lockout service now!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <a
