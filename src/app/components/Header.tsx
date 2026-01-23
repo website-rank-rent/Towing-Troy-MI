@@ -1,6 +1,6 @@
 'use client';
 
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Bars3Icon, XMarkIcon, PhoneIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -32,26 +32,42 @@ export default function Header() {
           Troy Towing & Roadside
         </Link>
 
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 items-center">
           <Link href="/" className={linkClass("/")}>Home</Link>
           <Link href="/services" className={linkClass("/services")}>Services</Link>
           <Link href="/about" className={linkClass("/about")}>About</Link>
           <Link href="/blog" className={linkClass("/blog")}>Blog</Link>
           <Link href="/#contact" className="hover:text-gray-200">Contact</Link>
           <Link href="/#testimonials" className="hover:text-gray-200">Customer Reviews</Link>
+          <a
+            href="tel:+12484532195"
+            className="flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg transition-colors"
+          >
+            <PhoneIcon className="h-5 w-5" />
+            <span>(248) 453-2195</span>
+          </a>
         </div>
 
-        <button
-          className="md:hidden"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle Menu"
-        >
-          {menuOpen ? (
-            <XMarkIcon className="h-6 w-6" />
-          ) : (
-            <Bars3Icon className="h-6 w-6" />
-          )}
-        </button>
+        <div className="flex items-center gap-3 md:hidden">
+          <a
+            href="tel:+12484532195"
+            className="flex items-center gap-1 bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-3 py-2 rounded-lg transition-colors text-sm"
+            aria-label="Call us"
+          >
+            <PhoneIcon className="h-4 w-4" />
+            <span className="hidden sm:inline">(248) 453-2195</span>
+          </a>
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle Menu"
+          >
+            {menuOpen ? (
+              <XMarkIcon className="h-6 w-6" />
+            ) : (
+              <Bars3Icon className="h-6 w-6" />
+            )}
+          </button>
+        </div>
       </nav>
 
       {menuOpen && (
@@ -62,6 +78,13 @@ export default function Header() {
           <Link href="/blog" onClick={() => setMenuOpen(false)} className={linkClass("/blog")}>Blog</Link>
           <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
           <Link href="/#testimonials" onClick={() => setMenuOpen(false)}>Customer Reviews</Link>
+          <a
+            href="tel:+12484532195"
+            className="flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-4 py-3 rounded-lg transition-colors mt-2"
+          >
+            <PhoneIcon className="h-5 w-5" />
+            <span>Call Now: (248) 453-2195</span>
+          </a>
         </div>
       )}
     </header>
