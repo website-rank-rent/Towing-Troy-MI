@@ -22,7 +22,7 @@ export default function BlogPage() {
       />
 
       {/* Overlay */}
-      <div className="relative z-10 bg-black/30 backdrop-blur-sm min-h-screen flex items-center justify-center px-4 py-20">
+      <div className="relative z-10 bg-black/30 backdrop-blur-sm min-h-screen flex items-center justify-center px-4 pt-24 pb-20 md:py-20">
         <main className="max-w-3xl bg-black/80 text-white p-8 rounded-xl shadow-lg">
           <h1 className="text-4xl font-bold mb-6">Troy Towing &amp; Roadside Tips</h1>
 
