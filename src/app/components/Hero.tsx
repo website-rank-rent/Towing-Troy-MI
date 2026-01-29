@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/40" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-16 md:py-24 gap-6 min-h-[80vh] md:min-h-screen">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 pt-24 pb-16 md:py-24 gap-6 min-h-[80vh] md:min-h-screen">
         <div className="max-w-3xl">
           <h1 className="text-white text-4xl md:text-6xl font-extrabold leading-tight">
             Tow Truck <span className="whitespace-nowrap">Near Me</span> in Troy, Michigan
@@ -50,13 +50,6 @@ export default function Hero() {
               itemProp="telephone"
             >
               CALL 24/7 • (248) 453-2195
-            </a>
-
-            <a
-              href="#contact"
-              className="inline-block bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-4 rounded-md backdrop-blur transition"
-            >
-              Request a Quote
             </a>
           </div>
 
